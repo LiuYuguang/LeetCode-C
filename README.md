@@ -1,3 +1,3 @@
-|#    |Title | Difficulty |
-| :-- | :--  | :-- |
-|1    |Two Sum |Easy |
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|1|[Two Sum](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/twoSum/twoSum.c) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/twoSum/twoSum.c) | Easy|
