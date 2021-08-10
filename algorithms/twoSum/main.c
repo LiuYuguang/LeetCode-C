@@ -1,19 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void sort(int* nums, int numsSize,int *index){
+void sort(int *nums,int numsSize,int *index){
     if(numsSize <= 1){
         return;
     }
 
     int mid = nums[0],mid_index = index[0];
-    int left = 0,right = numsSize-1;
-    while(left < right){
-        while(left<right&&mid<nums[right]) right--;
+    int left=0,right=numsSize-1;
+    while(left<right){
+        while(left<right && mid < nums[right]) right--;
         nums[left] = nums[right];
         index[left] = index[right];
 
-        while(left<right&&mid>=nums[left]) left++;
+        while(left<right && mid >= nums[left]) left++;
         nums[right] = nums[left];
         index[right] = index[left];
     }
@@ -26,40 +26,29 @@ void sort(int* nums, int numsSize,int *index){
 
 int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     int *index = malloc(sizeof(int) * numsSize);
+    int *returnNums = NULL;
+    *returnSize = 0;
     int i,j,sum;
-    for(i=0;i<numsSize;i++){
+    for(i=0;i<numsSize;i++)
         index[i] = i;
-    }
-
     sort(nums,numsSize,index);
-    
     for(i=0,j=numsSize-1;i<j;){
         sum = nums[i] + nums[j];
         if(sum == target){
+            returnNums = malloc(sizeof(int) * 2);
+            returnNums[0] = index[i];
+            returnNums[1] = index[j];
+            *returnSize = 2;
             break;
-        }else if(sum > target){
-            j--;
-        }else{
+        }else if(sum < target){
             i++;
+        }else /*if(sum > target)*/{
+            j--;
         }
     }
-
-    if(i == j){
-        *returnSize = 0;
-        free(index);
-        return NULL;
-    }
-
-    int *returnNums = malloc(sizeof(int) * 2);
-    returnNums[0] = index[i];
-    returnNums[1] = index[j];
-    *returnSize = 2;
-
     free(index);
-
     return returnNums;
 }
-
 
 int main(){
     {
