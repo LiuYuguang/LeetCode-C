@@ -3,3 +3,6 @@
 |1|[Two Sum](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/twoSum/main.c) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/twoSum/main.c) | Easy |
 |2|[Add Two Numbers](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/addTwoNumbers/main.c) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/addTwoNumbers/main.c) | Medium |
 |3|[Longest Substring Without Repeating Characters](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/longestSubstringWithoutRepeatingCharacters/main.c) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/longestSubstringWithoutRepeatingCharacters/main.c) | Medium |
+|6|[Zigzag Conversion](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/zigzagConversion/main.c) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/zigzagConversion/main.c) | Medium |
+|7|[Reverse Integer](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/reverseInteger/main.c) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/reverseInteger/main.c) | Easy |
+|8|[String To Integer Atoi](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/stringToIntegerAtoi/main.c) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/stringToIntegerAtoi/main.c) | Medium |
