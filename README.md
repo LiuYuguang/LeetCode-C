@@ -16,3 +16,7 @@
 |20|[Valid Parentheses, 有效的括号](https://leetcode-cn.com/problems/valid-parentheses) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/validParentheses/main.c) | Easy |
 |21|[Merge Two Sorted Lists, 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/mergeTwoSortedLists/main.c) | Easy |
 |22|[Generate Parentheses, 括号生成](https://leetcode-cn.com/problems/generate-parentheses) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/generateParentheses/main.c) | Medium |
+|23|[Merge K Sorted Lists, 合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/mergeKSortedLists/main.c) | Hard |
+|24|[Swap Nodes in Pairs, 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/swapNodesInPairs/main.c) | Medium |
+|25|[Reverse Nodes in k-Group, K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/reverseNodesInKGroup/main.c) | Hard |
+|26|[Remove Duplicates from Sorted Array, 删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/removeDuplicatesFromSortedArray/main.c) | Easy |
