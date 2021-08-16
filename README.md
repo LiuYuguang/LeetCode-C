@@ -24,3 +24,5 @@
 |28|[Implement strStr(), 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/implementStrstr/main.c) | Easy |
 |36|[Valid Sudoku, 有效的数独](https://leetcode-cn.com/problems/valid-sudoku) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/validSudoku/main.c) | Medium |
 |37|[Sudoku Solver, 解数独](https://leetcode-cn.com/problems/sudoku-solver) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/sudokuSolver/main.c) | Hard |
+|39|[Combination Sum, 组合总和](https://leetcode-cn.com/problems/combination-sum) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/combinationSum/main.c) | Medium |
+|40|[Combination Sum II, 组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/combinationSumII/main.c) | Medium |
