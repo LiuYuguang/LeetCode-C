@@ -20,3 +20,7 @@
 |24|[Swap Nodes in Pairs, 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/swapNodesInPairs/main.c) | Medium |
 |25|[Reverse Nodes in k-Group, K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/reverseNodesInKGroup/main.c) | Hard |
 |26|[Remove Duplicates from Sorted Array, 删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/removeDuplicatesFromSortedArray/main.c) | Easy |
+|27|[Remove Element, 移除元素](https://leetcode-cn.com/problems/remove-element) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/removeElement/main.c) | Easy |
+|28|[Implement strStr(), 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/implementStrstr/main.c) | Easy |
+|36|[Valid Sudoku, 有效的数独](https://leetcode-cn.com/problems/valid-sudoku) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/validSudoku/main.c) | Medium |
+|37|[Sudoku Solver, 解数独](https://leetcode-cn.com/problems/sudoku-solver) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/sudokuSolver/main.c) | Hard |
