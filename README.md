@@ -26,3 +26,6 @@
 |37|[Sudoku Solver, 解数独](https://leetcode-cn.com/problems/sudoku-solver) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/sudokuSolver/main.c) | Hard |
 |39|[Combination Sum, 组合总和](https://leetcode-cn.com/problems/combination-sum) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/combinationSum/main.c) | Medium |
 |40|[Combination Sum II, 组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/combinationSumII/main.c) | Medium |
+|41|[First Missing Positive, 缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/firstMissingPositive/main.c) | Hard |
+|42|[Trapping Rain Water, 接雨水](https://leetcode-cn.com/problems/trapping-rain-water) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/trappingRainWater/main.c) | Hard |
+|43|[Multiply Strings, 字符串相乘](https://leetcode-cn.com/problems/multiply-strings) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/multiplyStrings/main.c) | Medium |
