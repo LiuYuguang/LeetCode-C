@@ -29,3 +29,6 @@
 |41|[First Missing Positive, 缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/firstMissingPositive/main.c) | Hard |
 |42|[Trapping Rain Water, 接雨水](https://leetcode-cn.com/problems/trapping-rain-water) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/trappingRainWater/main.c) | Hard |
 |43|[Multiply Strings, 字符串相乘](https://leetcode-cn.com/problems/multiply-strings) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/multiplyStrings/main.c) | Medium |
+|46|[Permutations, 全排列](https://leetcode-cn.com/problems/permutations) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/permutations/main.c) | Medium |
+|47|[Permutations II, 全排列 II](https://leetcode-cn.com/problems/permutations-ii) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/permutationsII/main.c) | Medium |
+|48|[Rotate Image, 旋转图像](https://leetcode-cn.com/problems/rotate-image) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/rotateImage/main.c) | Medium |
