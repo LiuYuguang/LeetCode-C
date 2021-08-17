@@ -32,3 +32,6 @@
 |46|[Permutations, 全排列](https://leetcode-cn.com/problems/permutations) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/permutations/main.c) | Medium |
 |47|[Permutations II, 全排列 II](https://leetcode-cn.com/problems/permutations-ii) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/permutationsII/main.c) | Medium |
 |48|[Rotate Image, 旋转图像](https://leetcode-cn.com/problems/rotate-image) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/rotateImage/main.c) | Medium |
+|50|[Pow(x, n)](https://leetcode-cn.com/problems/powx-n) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/powxn/main.c) | Medium |
+|51|[N-Queens, N 皇后](https://leetcode-cn.com/problems/n-queens) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/nQueens/main.c) | Hard |
+|52|[N-Queens II, N皇后 II](https://leetcode-cn.com/problems/n-queens-ii) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/nQueensII/main.c) | Hard |
