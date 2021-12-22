@@ -6,17 +6,20 @@ struct ListNode {
     struct ListNode *next;
 };
 
-struct ListNode* swapPairs(struct ListNode* head){
-    struct ListNode new_head,*p=&new_head,*q,*k;
-    new_head.next = head;
-    while(p->next != NULL && p->next->next != NULL){
-        q = p->next;
-        k = q->next;
-        q->next = k->next;
-        p->next = k;
-        k->next = q;
-        p = q;
+struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
+    struct ListNode new_head={0,head},*p=&new_head,*q=&new_head;
+    int i;
+    for(i=0;i<n;i++){
+        q = q->next;
     }
+    while(q->next!=NULL){
+        p = p->next;
+        q = q->next;
+    }
+
+    q = p->next;
+    p->next= q->next;
+    free(q);
     return new_head.next;
 }
 
@@ -34,9 +37,9 @@ struct ListNode* arrayToList(int *nums,int numsSize){
 }
 
 int main(){
-    int nums[] = {1,2,3,4};
+    int nums[] = {1,2,3,4,5};
     struct ListNode* head = arrayToList(nums,sizeof(nums)/sizeof(int));
-    struct ListNode* new_head = swapPairs(head);
+    struct ListNode* new_head = removeNthFromEnd(head,2);
     struct ListNode* p = new_head,*q;
     while(p != NULL){
         printf("%d->",p->val);
@@ -45,5 +48,4 @@ int main(){
         free(q);
     }
     printf("NULL\n");
-    free(head);
 }
