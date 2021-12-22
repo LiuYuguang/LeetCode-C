@@ -35,3 +35,10 @@
 |50|[Pow(x, n)](https://leetcode-cn.com/problems/powx-n) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/powxn/main.c) | Medium |
 |51|[N-Queens, N 皇后](https://leetcode-cn.com/problems/n-queens) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/nQueens/main.c) | Hard |
 |52|[N-Queens II, N皇后 II](https://leetcode-cn.com/problems/n-queens-ii) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/nQueensII/main.c) | Hard |
+|54|[Spiral Matrix, 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/spiralMatrix/main.c) | Medium |
+|58|[Length of Last Word, 最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/lengthOfLastWord/main.c) | Easy |
+|59|[Spiral Matrix II, 螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/spiralMatrixII/main.c) | Medium |
+|61|[Rotate List, 旋转链表](https://leetcode-cn.com/problems/rotate-list/) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/rotateList/main.c) | Medium |
+|138|[Copy List with Random Pointer, 复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/copyListWithRandomPointer/main.c) | Medium |
+|148|[Sort List, 排序链表](https://leetcode-cn.com/problems/sort-list/) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/sortList/main.c) | Medium |
+|206|[Reverse Linked List, 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | [C](https://github.com/LiuYuguang/LeetCode-C/blob/main/algorithms/reverseLinkedList/main.c) | Easy |
