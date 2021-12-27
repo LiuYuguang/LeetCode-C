@@ -1,12 +1,13 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 #define true 1
 #define false 0
 typedef int bool;
 
+char heap[10000];
+
 bool isValid(char * s){
-    char *tmp = malloc(10001),*p;
+    char *p;
     int len = 0;
     for(p=s;*p!='\0';p++){
         switch (*p)
@@ -14,27 +15,27 @@ bool isValid(char * s){
             case '(':
             case '{':
             case '[':
-                tmp[len++] = *p;
+                heap[len++] = *p;
                 break;
             case ')':
-                if(len == 0||tmp[--len] != '(')
-                    goto finish;
+                if(len == 0||heap[--len] != '(')
+                    return false;
                 break;
             case '}':
-                if(len == 0 || tmp[--len] != '{')
-                    goto finish;
+                if(len == 0 || heap[--len] != '{')
+                    return false;
                 break;
             case ']':
-                if(len == 0||tmp[--len] != '[')
-                    goto finish;
+                if(len == 0||heap[--len] != '[')
+                    return false;
                 break;
             default:
                 break;
         }
     }
     finish:
-    free(tmp);
-    return *p=='\0'&&len==0;
+    
+    return len==0;
 }
 
 int main(){
