@@ -2,71 +2,52 @@
 #include <stdlib.h>
 
 int** generateMatrix(int n, int* returnSize, int** returnColumnSizes){
-    int numsSizes = n;
-    int *numsColSizes = NULL;
-    int **nums = NULL;
-    int i,j,k;
-
-    numsColSizes = malloc(sizeof(int) * n);
-    nums = malloc(sizeof(int*) * n);
+    *returnSize = n;
+    *returnColumnSizes = malloc(sizeof(int) * n);
+    int **returnNums = malloc(sizeof(int*) * n);
+    int i,j;
     for(i=0;i<n;i++){
-        numsColSizes[i] = n;
-        nums[i] = malloc(sizeof(int) * n);
+        (*returnColumnSizes)[i] = n;
+        returnNums[i] = malloc(sizeof(int) * n);
     }
 
     int left,right,up,down;
-    left = 0;
-    right = n;
-    up = 0;
-    down = n;
-    
-    k=1;
-    for(;;){
-        if(left>=right||up>=down)
-            break;
+    int count = 1;
+    for(left=0,right=n,up=0,down=n;left<right&&up<down;){
+
         for(i=up,j=left;j<right;j++){
-            nums[i][j] = k++;
+            returnNums[i][j] = count++;
         }
         up++;
 
-        if(left>=right||up>=down)
-            break;
-        for(j=right-1,i=up;i<down;i++){
-            nums[i][j] = k++;
+        for(i=up,j=right-1;i<down;i++){
+            returnNums[i][j] = count++;
         }
         right--;
 
-        if(left>=right||up>=down)
-            break;
         for(i=down-1,j=right-1;j>=left;j--){
-            nums[i][j] = k++;
+            returnNums[i][j] = count++;
         }
         down--;
 
-        if(left>=right||up>=down)
-            break;
-        for(j=left,i=down-1;i>=up;i--){
-            nums[i][j] = k++;
+        for(i=down-1,j=left;i>=up;i--){
+            returnNums[i][j] = count++;
         }
         left++;
     }
 
-    *returnSize = n;
-    *returnColumnSizes = numsColSizes;
-    return nums;
+    return returnNums;
 }
 
 int main(){
-    {
-        int n=3;
-        int returnSize,*returnColumnSizes,**returnNums;
-        returnNums = generateMatrix(n,&returnSize,&returnColumnSizes);
-        int i,j;
-        for(i=0;i<returnSize;i++){
-            for(j=0;j<returnColumnSizes[i];j++){
-                printf("%d,",returnNums[i][j]);
-            }
-            printf("\n");
+    int n=3;
+    int returnSize,*returnColumnSizes,**returnNums;
+    returnNums = generateMatrix(n,&returnSize,&returnColumnSizes);
+    int i,j;
+    for(i=0;i<returnSize;i++){
+        for(j=0;j<returnColumnSizes[i];j++){
+            printf("%d,",returnNums[i][j]);
         }
+        printf("\n");
     }
 }

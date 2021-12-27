@@ -3,36 +3,27 @@
 #include <string.h>
 
 int trap(int* height, int heightSize){
-    if(heightSize == 0){
-        return 0;
-    }
-
-    int max_height=height[0],max_height_index=0;
-    int i,j;
-    for(i=1;i<heightSize;i++){
-        if(height[i] > max_height){
-            max_height = height[i];
-            max_height_index = i;
+    int h=-1,index=-1;
+    int i,area=0;
+    for(i=0;i<heightSize;i++){
+        if(height[i] > h){
+            h = height[i];
+            index = i;
         }
     }
 
-    int area = 0;
-    max_height = -1;
-    for(i=0;i<max_height_index;i++){
-        if(height[i] > max_height){
-            max_height = height[i];
-        }else{
-            area += (max_height-height[i]);
+    for(i=0,h=height[0];i<index;i++){
+        if(height[i] > h){
+            h = height[i];
         }
+        area += (h - height[i]);
     }
 
-    max_height = -1;
-    for(i=heightSize-1;i>max_height_index;i--){
-        if(height[i] > max_height){
-            max_height = height[i];
-        }else{
-            area += (max_height-height[i]);
+    for(i=heightSize-1,h=height[heightSize-1];i>index;i--){
+        if(height[i] > h){
+            h = height[i];
         }
+        area += (h - height[i]);   
     }
     return area;
 }

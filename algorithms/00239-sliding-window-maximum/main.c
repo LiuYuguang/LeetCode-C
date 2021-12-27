@@ -296,6 +296,9 @@ rbtree_node_t* rbtree_max(rbtree_t *tree,rbtree_node_t* node){
     return node;
 }
 
+rbtree_t rbtree;
+rbtree_node_t rbtree_node_list[100000];
+
 int* maxSlidingWindow(int* nums, int numsSize, int k, int* returnSize){    
     int returnLen = numsSize - k + 1;
     int *returnNums = malloc(sizeof(int) * returnLen);
@@ -305,13 +308,11 @@ int* maxSlidingWindow(int* nums, int numsSize, int k, int* returnSize){
         return returnNums;
     }
 
-    rbtree_t rbtree;
-    rbtree_node_t *rbtree_node_list = NULL,*rbtree_node = NULL;
+    rbtree_node_t *rbtree_node = NULL;
     int i,j=0;
 
     rbtree_init(&rbtree);
 
-    rbtree_node_list = malloc(sizeof(rbtree_node_t) * numsSize);
     for(i=0;i<numsSize;i++){
         rbtree_node_list[i].key = nums[i];
     }
@@ -330,8 +331,6 @@ int* maxSlidingWindow(int* nums, int numsSize, int k, int* returnSize){
         rbtree_node = rbtree_max(&rbtree,rbtree.root);
         returnNums[j++] = rbtree_node->key;
     }
-
-    free(rbtree_node_list);
 
     *returnSize = returnLen;
     return returnNums;

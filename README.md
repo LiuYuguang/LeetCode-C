@@ -41,12 +41,15 @@
 |59|[Spiral Matrix II, 螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii) | [C](algorithms/00059-spiral-matrix-ii/main.c) | Medium |
 |61|[Rotate List, 旋转链表](https://leetcode-cn.com/problems/rotate-list/) | [C](algorithms/00061-rotate-list/main.c) | Medium |
 |64|[Minimum Path Sum, 最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) | [C](algorithms/00064-minimum-path-sum/main.c) | Medium |
+|78|[Subsets, 子集](https://leetcode-cn.com/problems/subsets/) | [C](algorithms/00078-subsets/main.c) | Medium |
 |92|[Reverse Linked List II, 反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/) | [C](algorithms/00092-reverse-linked-list-ii/main.c) | Medium |
 |96|[Unique Binary Search Trees, 不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/) | [C](algorithms/00096-unique-binary-search-trees/main.c) | Medium |
+|94|[Binary Tree Inorder Traversal, 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | [C](algorithms/00094-binary-tree-inorder-traversal/main.c) | Easy |
 |118|[Pascal's Triangle, 杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) | [C](algorithms/00118-pascals-triangle/main.c) | Easy |
 |138|[Copy List with Random Pointer, 复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/) | [C](algorithms/00138-copy-list-with-random-pointer//main.c) | Medium |
 |141|[Linked List Cycle, 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | [C](algorithms/00141-linked-list-cycle/main.c) | Easy |
 |142|[Linked List Cycle II, 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | [C](algorithms/00142-linked-list-cycle-ii) | Medium |
+|144|[Binary Tree Preorder Traversal, 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | [C](algorithms/00144-binary-tree-preorder-traversal) | Easy |
 |148|[Sort List, 排序链表](https://leetcode-cn.com/problems/sort-list/) | [C](algorithms/00148-sort-list/main.c) | Medium |
 |155|[Min Stack, 最小栈](https://leetcode-cn.com/problems/min-stack/) | [C](algorithms/00155-min-stack/main.c) | Easy |
 |160|[Intersection of Two Linked Lists, 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [C](algorithms/00160-intersection-of-two-linked-lists/main.c) | Easy |
@@ -59,6 +62,10 @@
 |236|[Lowest Common Ancestor of a Binary Tree, 二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [C](algorithms/00236-lowest-common-ancestor-of-a-binary-tree/main.c) | Medium |
 |239|[Sliding Window Maximum, 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | [C](algorithms/00239-sliding-window-maximum/main.c) | Hard |
 |328|[Odd Even Linked List, 奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/) | [C](algorithms/00328-odd-even-linked-list/main.c) | Medium |
+|347|[Top K Frequent Elements, 前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) | [C](algorithms/00347-top-k-frequent-elements/main.c) | Medium |
 |605|[Can Place Flowers, 种花问题](https://leetcode-cn.com/problems/can-place-flowers/) | [C](algorithms/00605-can-place-flowers/main.c) | Easy |
+|695|[Max Area of Island, 岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/) | [C](algorithms/00695-max-area-of-island/main.c) | Medium |
 |704|[Binary Search, 二分查找](https://leetcode-cn.com/problems/binary-search/) | [C](algorithms/00704-binary-search/main.c) | Easy |
+|717|[1-bit and 2-bit Characters, 1比特与2比特字符](https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/) | [C](algorithms/00717-1-bit-and-2-bit-characters/main.c) | Easy |
 |827|[Making A Large Island, 最大人工岛](https://leetcode-cn.com/problems/making-a-large-island/) | [C](algorithms/00827-making-a-large-island/main.c) | Hard |
+|977|[Squares of a Sorted Array, 有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) | [C](algorithms/00977-squares-of-a-sorted-array/main.c) | Easy |
