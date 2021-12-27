@@ -51,3 +51,4 @@
 |236|[Lowest Common Ancestor of a Binary Tree, 二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [C](algorithms/00236-lowest-common-ancestor-of-a-binary-tree/main.c) | Medium |
 |239|[Sliding Window Maximum, 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | [C](algorithms/00239-sliding-window-maximum/main.c) | Hard |
 |328|[Odd Even Linked List, 奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/) | [C](algorithms/00328-odd-even-linked-list/main.c) | Medium |
+|605|[Can Place Flowers, 种花问题](https://leetcode-cn.com/problems/can-place-flowers/) | [C](algorithms/00605-can-place-flowers/main.c) | Easy |
