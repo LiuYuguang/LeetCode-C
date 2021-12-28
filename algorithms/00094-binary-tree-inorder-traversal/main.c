@@ -26,6 +26,26 @@ int* inorderTraversal(struct TreeNode* root, int* returnSize){
     return returnNums;
 }
 
+// int *returnNums;
+// int returnLen;
+
+// void dps(struct TreeNode* root){
+//     if(root == NULL){
+//         return;
+//     }
+//     dps(root->left);
+//     returnNums[returnLen++] = root->val;
+//     dps(root->right);
+// }
+
+// int* inorderTraversal(struct TreeNode* root, int* returnSize){
+//     returnNums = malloc(sizeof(int) * 100);
+//     returnLen = 0;
+//     dps(root);
+//     *returnSize = returnLen;
+//     return returnNums;
+// }
+
 int main(){
     struct TreeNode tree_list[] = {
         [0]={1,NULL,&tree_list[1]},
