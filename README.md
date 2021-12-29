@@ -45,6 +45,7 @@
 |63|[Unique Paths II, 不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii/) | [C](algorithms/00063-unique-paths-ii/main.c) | Medium |
 |64|[Minimum Path Sum, 最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) | [C](algorithms/00064-minimum-path-sum/main.c) | Medium |
 |71|[Simplify Path, 简化路径](https://leetcode-cn.com/problems/simplify-path/) | [C](algorithms/00071-simplify-path/main.c) | Medium |
+|77|[Combinations, 组合](https://leetcode-cn.com/problems/combinations/) | [C](algorithms/00077-combinations/main.c) | Medium |
 |78|[Subsets, 子集](https://leetcode-cn.com/problems/subsets/) | [C](algorithms/00078-subsets/main.c) | Medium |
 |84|[Largest Rectangle in Histogram, 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) | [C](algorithms/00084-largest-rectangle-in-histogram/main.c) | Hard |
 |85|[Maximal Rectangle, 最大矩形](https://leetcode-cn.com/problems/maximal-rectangle/) | [C](algorithms/00085-maximal-rectangle/main.c) | Hard |
