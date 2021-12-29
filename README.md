@@ -29,6 +29,7 @@
 |41|[First Missing Positive, 缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive) | [C](algorithms/00041-first-missing-positive/main.c) | Hard |
 |42|[Trapping Rain Water, 接雨水](https://leetcode-cn.com/problems/trapping-rain-water) | [C](algorithms/00042-trapping-rain-water/main.c) | Hard |
 |43|[Multiply Strings, 字符串相乘](https://leetcode-cn.com/problems/multiply-strings) | [C](algorithms/00043-multiply-strings/main.c) | Medium |
+|45|[Jump Game II, 跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/) | [C](algorithms/00045-jump-game-ii/main.c) | Medium |
 |46|[Permutations, 全排列](https://leetcode-cn.com/problems/permutations) | [C](algorithms/00046-permutations/main.c) | Medium |
 |47|[Permutations II, 全排列 II](https://leetcode-cn.com/problems/permutations-ii) | [C](algorithms/00047-permutations-ii/main.c) | Medium |
 |48|[Rotate Image, 旋转图像](https://leetcode-cn.com/problems/rotate-image) | [C](algorithms/00048-rotate-image/main.c) | Medium |
@@ -37,15 +38,22 @@
 |52|[N-Queens II, N皇后 II](https://leetcode-cn.com/problems/n-queens-ii) | [C](algorithms/00052-n-queens-ii/main.c) | Hard |
 |53|[Maximum Subarray, 最大子数组和](https://leetcode-cn.com/problems/maximum-subarray/) | [C](algorithms/00053-maximum-subarray/main.c) | Easy |
 |54|[Spiral Matrix, 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix) | [C](algorithms/00054-spiral-matrix/main.c) | Medium |
+|55|[Jump Game, 跳跃游戏](https://leetcode-cn.com/problems/jump-game/) | [C](algorithms/00055-jump-game/main.c) | Medium |
 |58|[Length of Last Word, 最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word) | [C](algorithms/00058-length-of-last-word/main.c) | Easy |
 |59|[Spiral Matrix II, 螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii) | [C](algorithms/00059-spiral-matrix-ii/main.c) | Medium |
 |61|[Rotate List, 旋转链表](https://leetcode-cn.com/problems/rotate-list/) | [C](algorithms/00061-rotate-list/main.c) | Medium |
+|63|[Unique Paths II, 不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii/) | [C](algorithms/00063-unique-paths-ii/main.c) | Medium |
 |64|[Minimum Path Sum, 最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) | [C](algorithms/00064-minimum-path-sum/main.c) | Medium |
+|71|[Simplify Path, 简化路径](https://leetcode-cn.com/problems/simplify-path/) | [C](algorithms/00071-simplify-path/main.c) | Medium |
 |78|[Subsets, 子集](https://leetcode-cn.com/problems/subsets/) | [C](algorithms/00078-subsets/main.c) | Medium |
+|84|[Largest Rectangle in Histogram, 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) | [C](algorithms/00084-largest-rectangle-in-histogram/main.c) | Hard |
+|85|[Maximal Rectangle, 最大矩形](https://leetcode-cn.com/problems/maximal-rectangle/) | [C](algorithms/00085-maximal-rectangle/main.c) | Hard |
 |91|[Decode Ways, 解码方法](https://leetcode-cn.com/problems/decode-ways/) | [C](algorithms/00091-decode-ways/main.c) | Medium |
 |92|[Reverse Linked List II, 反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/) | [C](algorithms/00092-reverse-linked-list-ii/main.c) | Medium |
-|96|[Unique Binary Search Trees, 不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/) | [C](algorithms/00096-unique-binary-search-trees/main.c) | Medium |
+|93|[Restore IP Addresses, 复原 IP 地址](https://leetcode-cn.com/problems/restore-ip-addresses/) | [C](algorithms/00093-restore-ip-addresses/main.c) | Medium |
 |94|[Binary Tree Inorder Traversal, 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | [C](algorithms/00094-binary-tree-inorder-traversal/main.c) | Easy |
+|96|[Unique Binary Search Trees, 不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/) | [C](algorithms/00096-unique-binary-search-trees/main.c) | Medium |
+|97|[Interleaving String, 交错字符串](https://leetcode-cn.com/problems/interleaving-string/) | [C](algorithms/00097-interleaving-string/main.c) | Medium |
 |102|[Binary Tree Level Order Traversal, 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [C](algorithms/00102-binary-tree-level-order-traversal/main.c) | Medium |
 |107|[Binary Tree Level Order Traversal II, 二叉树的层序遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/) | [C](algorithms/00107-binary-tree-level-order-traversal-ii/main.c) | Medium |
 |108|[Convert Sorted Array to Binary Search Tree, 将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/) | [C](algorithms/00108-convert-sorted-array-to-binary-search-tree/main.c) | Easy |
@@ -64,6 +72,7 @@
 |230|[Kth Smallest Element in a BST, 二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/) | [C](algorithms/00230-kth-smallest-element-in-a-bst/main.c) | Easy |
 |232|[Implement Queue using Stacks, 用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | [C](algorithms/00232-implement-queue-using-stacks/main.c) | Easy |
 |234|[Palindrome Linked List, 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) | [C](algorithms/00234-palindrome-linked-list/main.c) | Easy |
+|235|[Lowest Common Ancestor of a Binary Search Tree, 二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [C](algorithms/00235-lowest-common-ancestor-of-a-binary-search-tree/main.c) | Easy |
 |236|[Lowest Common Ancestor of a Binary Tree, 二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [C](algorithms/00236-lowest-common-ancestor-of-a-binary-tree/main.c) | Medium |
 |239|[Sliding Window Maximum, 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | [C](algorithms/00239-sliding-window-maximum/main.c) | Hard |
 |328|[Odd Even Linked List, 奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/) | [C](algorithms/00328-odd-even-linked-list/main.c) | Medium |
