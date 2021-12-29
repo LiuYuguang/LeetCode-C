@@ -58,6 +58,8 @@
 |102|[Binary Tree Level Order Traversal, 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [C](algorithms/00102-binary-tree-level-order-traversal/main.c) | Medium |
 |107|[Binary Tree Level Order Traversal II, 二叉树的层序遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/) | [C](algorithms/00107-binary-tree-level-order-traversal-ii/main.c) | Medium |
 |108|[Convert Sorted Array to Binary Search Tree, 将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/) | [C](algorithms/00108-convert-sorted-array-to-binary-search-tree/main.c) | Easy |
+|114|[Flatten Binary Tree to Linked List
+, 二叉树展开为链表](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/) | [C](algorithms/00114-flatten-binary-tree-to-linked-list/main.c) | Medium |
 |118|[Pascal's Triangle, 杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) | [C](algorithms/00118-pascals-triangle/main.c) | Easy |
 |138|[Copy List with Random Pointer, 复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/) | [C](algorithms/00138-copy-list-with-random-pointer//main.c) | Medium |
 |141|[Linked List Cycle, 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | [C](algorithms/00141-linked-list-cycle/main.c) | Easy |
