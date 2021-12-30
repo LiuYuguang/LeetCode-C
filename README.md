@@ -56,6 +56,9 @@
 |96|[Unique Binary Search Trees, 不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/) | [C](algorithms/00096-unique-binary-search-trees/main.c) | Medium |
 |97|[Interleaving String, 交错字符串](https://leetcode-cn.com/problems/interleaving-string/) | [C](algorithms/00097-interleaving-string/main.c) | Medium |
 |102|[Binary Tree Level Order Traversal, 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [C](algorithms/00102-binary-tree-level-order-traversal/main.c) | Medium |
+|103|[Binary Tree Zigzag Level Order Traversal, 二叉树的锯齿形层序遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | [C](algorithms/00103-binary-tree-zigzag-level-order-traversal/main.c) | Medium |
+|105|[Construct Binary Tree from Preorder and Inorder Traversal, 从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [C](algorithms/00105-construct-binary-tree-from-preorder-and-inorder-traversal/main.c) | Medium |
+|106|[Construct Binary Tree from Inorder and Postorder Traversal, 从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [C](algorithms/00106-construct-binary-tree-from-inorder-and-postorder-traversal/main.c) | Medium |
 |107|[Binary Tree Level Order Traversal II, 二叉树的层序遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/) | [C](algorithms/00107-binary-tree-level-order-traversal-ii/main.c) | Medium |
 |108|[Convert Sorted Array to Binary Search Tree, 将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/) | [C](algorithms/00108-convert-sorted-array-to-binary-search-tree/main.c) | Easy |
 |114|[Flatten Binary Tree to Linked List
@@ -64,6 +67,7 @@
 |138|[Copy List with Random Pointer, 复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/) | [C](algorithms/00138-copy-list-with-random-pointer//main.c) | Medium |
 |141|[Linked List Cycle, 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | [C](algorithms/00141-linked-list-cycle/main.c) | Easy |
 |142|[Linked List Cycle II, 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | [C](algorithms/00142-linked-list-cycle-ii) | Medium |
+|143|[Reorder List, 重排链表](https://leetcode-cn.com/problems/reorder-list/) | [C](algorithms/00143-reorder-list) | Medium |
 |144|[Binary Tree Preorder Traversal, 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | [C](algorithms/00144-binary-tree-preorder-traversal) | Easy |
 |145|[Binary Tree Postorder Traversal, 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | [C](algorithms/00145-binary-tree-postorder-traversal) | Easy |
 |148|[Sort List, 排序链表](https://leetcode-cn.com/problems/sort-list/) | [C](algorithms/00148-sort-list/main.c) | Medium |
