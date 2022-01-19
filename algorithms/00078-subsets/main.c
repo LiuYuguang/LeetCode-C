@@ -23,7 +23,7 @@ int** subsets(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
     returnNums = malloc(sizeof(int*) * 10000);
     returnCol = malloc(sizeof(int) * 10000);
     returnLen = 0;
-    int *dpsNums = malloc(sizeof(int) * numsSize);
+    int dpsNums[10]={0};
     dps(nums,numsSize,0,dpsNums,0);
 
     *returnSize = returnLen;
