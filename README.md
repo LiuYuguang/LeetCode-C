@@ -112,4 +112,5 @@
 |704|[Binary Search, 二分查找](https://leetcode-cn.com/problems/binary-search/) | [C](algorithms/00704-binary-search/main.c) | Easy |
 |717|[1-bit and 2-bit Characters, 1比特与2比特字符](https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/) | [C](algorithms/00717-1-bit-and-2-bit-characters/main.c) | Easy |
 |827|[Making A Large Island, 最大人工岛](https://leetcode-cn.com/problems/making-a-large-island/) | [C](algorithms/00827-making-a-large-island/main.c) | Hard |
+|957|[Prison Cells After N Days, N 天后的牢房](https://leetcode-cn.com/problems/prison-cells-after-n-days/) | [C](algorithms/00957-prison-cells-after-n-days/main.c) | Medium |
 |977|[Squares of a Sorted Array, 有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) | [C](algorithms/00977-squares-of-a-sorted-array/main.c) | Easy |
