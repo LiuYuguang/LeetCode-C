@@ -44,12 +44,20 @@
 |56|[Merge Intervals, 合并区间](https://leetcode-cn.com/problems/merge-intervals/) | [C](algorithms/00056-merge-intervals/main.c) | Medium |
 |58|[Length of Last Word, 最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word) | [C](algorithms/00058-length-of-last-word/main.c) | Easy |
 |59|[Spiral Matrix II, 螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii) | [C](algorithms/00059-spiral-matrix-ii/main.c) | Medium |
+|60|[Permutation Sequence, 排列序列](https://leetcode-cn.com/problems/permutation-sequence/) | [C](algorithms/00060-permutation-sequence/main.c) | Hard |
 |61|[Rotate List, 旋转链表](https://leetcode-cn.com/problems/rotate-list/) | [C](algorithms/00061-rotate-list/main.c) | Medium |
+|62|[Unique Paths, 不同路径](https://leetcode-cn.com/problems/unique-paths/) | [C](algorithms/00062-unique-paths/main.c) | Medium |
 |63|[Unique Paths II, 不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii/) | [C](algorithms/00063-unique-paths-ii/main.c) | Medium |
 |64|[Minimum Path Sum, 最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) | [C](algorithms/00064-minimum-path-sum/main.c) | Medium |
 |66|[Plus One, 加一](https://leetcode-cn.com/problems/plus-one/) | [C](algorithms/00066-plus-one/main.c) | Easy |
 |67|[Add Binary, 二进制求和](https://leetcode-cn.com/problems/add-binary/) | [C](algorithms/00067-add-binary/main.c) | Easy |
+|69|[Sqrt(x)](https://leetcode-cn.com/problems/sqrtx/) | [C](algorithms/00069-sqrtx/main.c) | Easy |
+|70|[Climbing Stairs, 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) | [C](algorithms/00070-climbing-stairs/main.c) | Easy |
 |71|[Simplify Path, 简化路径](https://leetcode-cn.com/problems/simplify-path/) | [C](algorithms/00071-simplify-path/main.c) | Medium |
+|72|[Edit Distance, 编辑距离](https://leetcode-cn.com/problems/edit-distance/) | [C](algorithms/00072-edit-distance/main.c) | Hard |
+|73|[Set Matrix Zeroes, 矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/) | [C](algorithms/00073-set-matrix-zeroes/main.c) | Medium |
+|75|[Sort Colors, 颜色分类](https://leetcode-cn.com/problems/sort-colors/) | [C](algorithms/00075-sort-colors/main.c) | Medium |
+|76|[Minimum Window Substring, 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/) | [C](algorithms/00076-minimum-window-substring/main.c) | Hard |
 |77|[Combinations, 组合](https://leetcode-cn.com/problems/combinations/) | [C](algorithms/00077-combinations/main.c) | Medium |
 |78|[Subsets, 子集](https://leetcode-cn.com/problems/subsets/) | [C](algorithms/00078-subsets/main.c) | Medium |
 |80|[Remove Duplicates from Sorted Array II, 删除有序数组中的重复项 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/) | [C](algorithms/00080-remove-duplicates-from-sorted-array-ii/main.c) | Medium |
@@ -87,11 +95,15 @@
 |148|[Sort List, 排序链表](https://leetcode-cn.com/problems/sort-list/) | [C](algorithms/00148-sort-list/main.c) | Medium |
 |155|[Min Stack, 最小栈](https://leetcode-cn.com/problems/min-stack/) | [C](algorithms/00155-min-stack/main.c) | Easy |
 |160|[Intersection of Two Linked Lists, 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [C](algorithms/00160-intersection-of-two-linked-lists/main.c) | Easy |
+|169|[Majority Element, 多数元素](https://leetcode-cn.com/problems/majority-element/) | [C](algorithms/00169-majority-element/main.c) | Easy |
 |173|[Binary Search Tree Iterator, 二叉搜索树迭代器](https://leetcode-cn.com/problems/binary-search-tree-iterator/) | [C](algorithms/00173-binary-search-tree-iterator/main.c) | Medium |
 |200|[Number of Islands, 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) | [C](algorithms/00200-number-of-islands/main.c) | Medium |
 |202|[Happy Number, 快乐数](https://leetcode-cn.com/problems/happy-number/) | [C](algorithms/00202-happy-number/main.c) | Easy |
 |206|[Reverse Linked List, 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | [C](algorithms/00206-reverse-linked-list/main.c) | Easy |
+|207|[Course Schedule, 课程表](https://leetcode-cn.com/problems/course-schedule/) | [C](algorithms/00207-course-schedule/main.c) | Medium |
+|210|[Course Schedule II, 课程表 II](https://leetcode-cn.com/problems/course-schedule-ii/) | [C](algorithms/00210-course-schedule-ii/main.c) | Medium |
 |221|[Maximal Square, 最大正方形](https://leetcode-cn.com/problems/maximal-square/) | [C](algorithms/00221-maximal-square/main.c) | Medium |
+|223|[Rectangle Area, 矩形面积](https://leetcode-cn.com/problems/rectangle-area/) | [C](algorithms/00223-rectangle-area/main.c) | Medium |
 |230|[Kth Smallest Element in a BST, 二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/) | [C](algorithms/00230-kth-smallest-element-in-a-bst/main.c) | Easy |
 |232|[Implement Queue using Stacks, 用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | [C](algorithms/00232-implement-queue-using-stacks/main.c) | Easy |
 |234|[Palindrome Linked List, 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) | [C](algorithms/00234-palindrome-linked-list/main.c) | Easy |
