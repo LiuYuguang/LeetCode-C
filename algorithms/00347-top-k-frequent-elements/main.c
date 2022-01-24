@@ -2,51 +2,94 @@
 #include <stdlib.h>
 #include <string.h>
 
-void sort(int *nums,int* nums2,int numsSize){
+void sort(int *nums,int numsSize){
     if(numsSize <= 1){
         return;
     }
-    int mid = nums[0],mid2 = nums2[0];
-    int left = 0, right = numsSize-1;
+
+    int mid = nums[0];
+    int left=0,right=numsSize-1;
     while(left<right){
         while(left<right && mid < nums[right]) right--;
         nums[left] = nums[right];
-        nums2[left] = nums2[right];
+
         while(left<right && mid >= nums[left]) left++;
         nums[right] = nums[left];
-        nums2[right] = nums2[left];
     }
     nums[left] = mid;
-    nums2[left] = mid2;
-    sort(nums,nums2,left);
-    sort(nums+left+1,nums2+left+1,numsSize-left-1);
+
+    sort(nums,left);
+    sort(nums+left+1,numsSize-left-1);
+}
+
+typedef struct{
+    int n;
+    int count;
+}Frequent;
+
+void stack_push(Frequent *frequent, int *len, Frequent f){
+    int child,parent;
+    child = (*len)++;
+    parent = (child-1)/2;
+    while(child!=0 && frequent[parent].count < f.count){
+        frequent[child] = frequent[parent];
+        child = parent;
+        parent = (child-1)/2;
+    }
+    frequent[child] = f;
+}
+
+void stack_pop(Frequent *frequent, int *len, int index){
+    Frequent f = frequent[--*(len)];
+    int child,parent;
+    parent = index;
+    child = parent*2+1;
+    if(child+1<*len && frequent[child+1].count > frequent[child].count){
+        child++;
+    }
+
+    while(child < *len && frequent[child].count > f.count){
+        frequent[parent] = frequent[child];
+        parent = child;
+        child = parent*2+1;
+        if(child+1<*len && frequent[child+1].count > frequent[child].count){
+            child++;
+        }
+    }
+    frequent[parent] = f;
 }
 
 int* topKFrequent(int* nums, int numsSize, int k, int* returnSize){
-    int nums2[100001] = {0};
-    int frequent[100001] = {0};
-    int i,j;
+    sort(nums,numsSize);
 
-    sort(nums,nums2,numsSize);
+    Frequent frequent[10000];
+    int i,j,len;
+    i= j = 0;
+    frequent[j].n = nums[i];
+    frequent[j].count = 1;
 
-    j=0;
-    nums2[j] = nums[0];
-    frequent[j] = 1;
-    for(i=1;i<numsSize;i++){
-        if(nums2[j] == nums[i]){
-            frequent[j]++;
-        }else{
+    for(i=1,j=0;i<numsSize;i++){
+        if(nums[i] != frequent[j].n){
             j++;
-            nums2[j] = nums[i];
-            frequent[j] = 1;
+            frequent[j].n = nums[i];
+            frequent[j].count = 1;
+        }else{
+            frequent[j].count++;
         }
     }
+    len = j+1;
 
-    sort(frequent,nums2,j+1);
+    for(i=0,j=0;i<len;i++){
+        stack_push(frequent,&j,frequent[i]);
+    }
 
-    int *returnNums = malloc(sizeof(int) * (k));
-    memcpy(returnNums,nums2 + j+1-k,sizeof(int) * k);
+    int *returnNums = malloc(sizeof(int) * k);
     *returnSize = k;
+    for(i=0;i<k;i++){
+        returnNums[i] = frequent[0].n;
+        stack_pop(frequent,&len,0);
+    }
+
     return returnNums;
 }
 

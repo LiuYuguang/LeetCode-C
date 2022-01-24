@@ -7,22 +7,29 @@ struct TreeNode {
     struct TreeNode *right;
 };
 
-int *returnNums;
-int returnLen;
-
-void dps(struct TreeNode* root){
-    if(root == NULL){
-        return;
-    }
-    dps(root->left);
-    dps(root->right);
-    returnNums[returnLen++] = root->val;
-}
-
 int* postorderTraversal(struct TreeNode* root, int* returnSize){
-    returnNums = malloc(sizeof(int) * 100);
-    returnLen = 0;
-    dps(root);
+    struct TreeNode *stack[101];
+    int size = 0,max_size = 0;
+    int *returnNums = malloc(sizeof(int) * 100),returnLen=0;
+
+    while(root != NULL || size > 0){
+        while(root != NULL){
+            stack[size++] = root;
+            root = root->left;
+        }
+        if(size > max_size){
+            max_size = size;
+        }
+        root = stack[size-1];
+        if(root->right == NULL || stack[size] == root->right){
+            returnNums[returnLen++] = root->val;
+            size--;
+            root = NULL;
+        }else{
+            root = root->right;
+        }
+    }
+
     *returnSize = returnLen;
     return returnNums;
 }
