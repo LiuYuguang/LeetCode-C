@@ -84,6 +84,7 @@
 |106|[Construct Binary Tree from Inorder and Postorder Traversal, 从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [C](algorithms/00106-construct-binary-tree-from-inorder-and-postorder-traversal/main.c) | Medium |
 |107|[Binary Tree Level Order Traversal II, 二叉树的层序遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/) | [C](algorithms/00107-binary-tree-level-order-traversal-ii/main.c) | Medium |
 |108|[Convert Sorted Array to Binary Search Tree, 将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/) | [C](algorithms/00108-convert-sorted-array-to-binary-search-tree/main.c) | Easy |
+|111|[Minimum Depth of Binary Tree, 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) | [C](algorithms/00111-minimum-depth-of-binary-tree/main.c) | Easy |
 |114|[Flatten Binary Tree to Linked List, 二叉树展开为链表](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/) | [C](algorithms/00114-flatten-binary-tree-to-linked-list/main.c) | Medium |
 |118|[Pascal's Triangle, 杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) | [C](algorithms/00118-pascals-triangle/main.c) | Easy |
 |134|[Gas Station, 加油站](https://leetcode-cn.com/problems/gas-station/) | [C](algorithms/00134-gas-station//main.c) | Medium |
@@ -93,6 +94,7 @@
 |143|[Reorder List, 重排链表](https://leetcode-cn.com/problems/reorder-list/) | [C](algorithms/00143-reorder-list) | Medium |
 |144|[Binary Tree Preorder Traversal, 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | [C](algorithms/00144-binary-tree-preorder-traversal) | Easy |
 |145|[Binary Tree Postorder Traversal, 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | [C](algorithms/00145-binary-tree-postorder-traversal) | Easy |
+|147|[Insertion Sort List, 对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/) | [C](algorithms/00147-insertion-sort-list) | Medium |
 |148|[Sort List, 排序链表](https://leetcode-cn.com/problems/sort-list/) | [C](algorithms/00148-sort-list/main.c) | Medium |
 |150|[Evaluate Reverse Polish Notation, 逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/) | [C](algorithms/00150-evaluate-reverse-polish-notation/main.c) | Medium |
 |153|[Find Minimum in Rotated Sorted Array, 寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/) | [C](algorithms/00153-find-minimum-in-rotated-sorted-array/main.c) | Medium |
@@ -101,12 +103,16 @@
 |160|[Intersection of Two Linked Lists, 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [C](algorithms/00160-intersection-of-two-linked-lists/main.c) | Easy |
 |169|[Majority Element, 多数元素](https://leetcode-cn.com/problems/majority-element/) | [C](algorithms/00169-majority-element/main.c) | Easy |
 |173|[Binary Search Tree Iterator, 二叉搜索树迭代器](https://leetcode-cn.com/problems/binary-search-tree-iterator/) | [C](algorithms/00173-binary-search-tree-iterator/main.c) | Medium |
+|179|[Largest Number, 最大数](https://leetcode-cn.com/problems/largest-number/) | [C](algorithms/00179-largest-number/main.c) | Medium |
 |199|[Binary Tree Right Side View, 二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/) | [C](algorithms/00199-binary-tree-right-side-view/main.c) | Medium |
 |200|[Number of Islands, 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) | [C](algorithms/00200-number-of-islands/main.c) | Medium |
 |202|[Happy Number, 快乐数](https://leetcode-cn.com/problems/happy-number/) | [C](algorithms/00202-happy-number/main.c) | Easy |
 |206|[Reverse Linked List, 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | [C](algorithms/00206-reverse-linked-list/main.c) | Easy |
 |207|[Course Schedule, 课程表](https://leetcode-cn.com/problems/course-schedule/) | [C](algorithms/00207-course-schedule/main.c) | Medium |
+|208|[Implement Trie (Prefix Tree), 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | [C](algorithms/00208-implement-trie-prefix-tree/main.c) | Medium |
+|209|[Minimum Size Subarray Sum, 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) | [C](algorithms/00209-minimum-size-subarray-sum/main.c) | Medium |
 |210|[Course Schedule II, 课程表 II](https://leetcode-cn.com/problems/course-schedule-ii/) | [C](algorithms/00210-course-schedule-ii/main.c) | Medium |
+|215|[Kth Largest Element in an Array, 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | [C](algorithms/00215-kth-largest-element-in-an-array/main.c) | Medium |
 |221|[Maximal Square, 最大正方形](https://leetcode-cn.com/problems/maximal-square/) | [C](algorithms/00221-maximal-square/main.c) | Medium |
 |223|[Rectangle Area, 矩形面积](https://leetcode-cn.com/problems/rectangle-area/) | [C](algorithms/00223-rectangle-area/main.c) | Medium |
 |230|[Kth Smallest Element in a BST, 二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/) | [C](algorithms/00230-kth-smallest-element-in-a-bst/main.c) | Easy |
@@ -116,13 +122,19 @@
 |236|[Lowest Common Ancestor of a Binary Tree, 二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [C](algorithms/00236-lowest-common-ancestor-of-a-binary-tree/main.c) | Medium |
 |239|[Sliding Window Maximum, 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | [C](algorithms/00239-sliding-window-maximum/main.c) | Hard |
 |263|[Ugly Number, 丑数](https://leetcode-cn.com/problems/ugly-number/) | [C](algorithms/00263-ugly-number/main.c) | Easy |
-|264|[Ugly Number II, Ugly Number II](https://leetcode-cn.com/problems/ugly-number-ii/) | [C](algorithms/00264-ugly-number-ii/main.c) | Medium |
+|264|[Ugly Number II, 丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/) | [C](algorithms/00264-ugly-number-ii/main.c) | Medium |
+|273|[Integer to English Words, 整数转换英文表示](https://leetcode-cn.com/problems/integer-to-english-words/) | [C](algorithms/00273-integer-to-english-words/main.c) | Medium |
+|274|[H-Index, H 指数](https://leetcode-cn.com/problems/h-index/) | [C](algorithms/00274-h-index/main.c) | Medium |
 |313|[Super Ugly Number, 超级丑数](https://leetcode-cn.com/problems/super-ugly-number/) | [C](algorithms/00313-super-ugly-number/main.c) | Medium |
 |328|[Odd Even Linked List, 奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/) | [C](algorithms/00328-odd-even-linked-list/main.c) | Medium |
 |347|[Top K Frequent Elements, 前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) | [C](algorithms/00347-top-k-frequent-elements/main.c) | Medium |
+|392|[Is Subsequence, 判断子序列](https://leetcode-cn.com/problems/is-subsequence/) | [C](algorithms/00392-is-subsequence/main.c) | Easy |
 |438|[Find All Anagrams in a String, 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) | [C](algorithms/00438-find-all-anagrams-in-a-string/main.c) | Medium |
 |494|[Target Sum, 目标和](https://leetcode-cn.com/problems/target-sum/) | [C](algorithms/00494-target-sum/main.c) | Medium |
 |498|[Diagonal Traverse, 对角线遍历](https://leetcode-cn.com/problems/diagonal-traverse/) | [C](algorithms/00498-diagonal-traverse/main.c) | Medium |
+|537|[Complex Number Multiplication, 复数乘法](https://leetcode-cn.com/problems/complex-number-multiplication/) | [C](algorithms/00537-complex-number-multiplication/main.c) | Medium |
+|540|[Single Element in a Sorted Array, 有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/) | [C](algorithms/00540-single-element-in-a-sorted-array/main.c) | Medium |
+|543|[Diameter of Binary Tree, 二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree/) | [C](algorithms/00543-diameter-of-binary-tree/main.c) | Easy |
 |547|[Number of Provinces, 省份数量](https://leetcode-cn.com/problems/number-of-provinces/) | [C](algorithms/00547-number-of-provinces/main.c) | Medium |
 |560|[Subarray Sum Equals K, 和为 K 的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/) | [C](algorithms/00560-subarray-sum-equals-k/main.c) | Medium |
 |567|[Permutation in String, 字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/) | [C](algorithms/00567-permutation-in-string/main.c) | Medium |
@@ -133,8 +145,13 @@
 |717|[1-bit and 2-bit Characters, 1比特与2比特字符](https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/) | [C](algorithms/00717-1-bit-and-2-bit-characters/main.c) | Easy |
 |765|[Couples Holding Hands, 情侣牵手](https://leetcode-cn.com/problems/couples-holding-hands/) | [C](algorithms/00765-couples-holding-hands/main.c) | Hard |
 |827|[Making A Large Island, 最大人工岛](https://leetcode-cn.com/problems/making-a-large-island/) | [C](algorithms/00827-making-a-large-island/main.c) | Hard |
+|841|[Keys and Rooms, 钥匙和房间](https://leetcode-cn.com/problems/keys-and-rooms/) | [C](algorithms/00841-keys-and-rooms/main.c) | Medium |
+|844|[Backspace String Compare, 比较含退格的字符串](https://leetcode-cn.com/problems/backspace-string-compare/) | [C](algorithms/00844-backspace-string-compare/main.c) | Easy |
+|876|[Middle of the Linked List, 链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/) | [C](algorithms/00876-middle-of-the-linked-list/main.c) | Easy |
 |946|[Validate Stack Sequences, 验证栈序列](https://leetcode-cn.com/problems/validate-stack-sequences/) | [C](algorithms/00946-validate-stack-sequences/main.c) | Medium |
 |957|[Prison Cells After N Days, N 天后的牢房](https://leetcode-cn.com/problems/prison-cells-after-n-days/) | [C](algorithms/00957-prison-cells-after-n-days/main.c) | Medium |
 |977|[Squares of a Sorted Array, 有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) | [C](algorithms/00977-squares-of-a-sorted-array/main.c) | Easy |
 |1019|[Next Greater Node In Linked List, 链表中的下一个更大节点](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/) | [C](algorithms/01019-next-greater-node-in-linked-list/main.c) | Medium |
+|1046|[Last Stone Weight, 最后一块石头的重量](https://leetcode-cn.com/problems/last-stone-weight/) | [C](algorithms/01046-last-stone-weight/main.c) | Easy |
 |1089|[Duplicate Zeros, 复写零](https://leetcode-cn.com/problems/duplicate-zeros/) | [C](algorithms/01089-duplicate-zeros/main.c) | Easy |
+|1290|[Convert Binary Number in a Linked List to Integer, 二进制链表转整数](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | [C](algorithms/01290-convert-binary-number-in-a-linked-list-to-integer/main.c) | Easy |
