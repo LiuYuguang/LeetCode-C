@@ -98,8 +98,20 @@
 |109|[Convert Sorted List to Binary Search Tree, 有序链表转换二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/) | [C](algorithms/00109-convert-sorted-list-to-binary-search-tree/main.c) | Medium |
 |110|[Balanced Binary Tree, 平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/) | [C](algorithms/00110-balanced-binary-tree/main.c) | Easy |
 |111|[Minimum Depth of Binary Tree, 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) | [C](algorithms/00111-minimum-depth-of-binary-tree/main.c) | Easy |
+|112|[Path Sum, 路径总和](https://leetcode-cn.com/problems/path-sum/) | [C](algorithms/00112-path-sum/main.c) | Easy |
+|113|[Path Sum II, 路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/) | [C](algorithms/00113-path-sum-ii/main.c) | Medium |
 |114|[Flatten Binary Tree to Linked List, 二叉树展开为链表](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/) | [C](algorithms/00114-flatten-binary-tree-to-linked-list/main.c) | Medium |
+|116|[Populating Next Right Pointers in Each Node, 填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/) | [C](algorithms/00116-populating-next-right-pointers-in-each-node/main.c) | Medium |
+|117|[Populating Next Right Pointers in Each Node II, 填充每个节点的下一个右侧节点指针 II](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/) | [C](algorithms/00117-populating-next-right-pointers-in-each-node-ii/main.c) | Medium |
 |118|[Pascal's Triangle, 杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) | [C](algorithms/00118-pascals-triangle/main.c) | Easy |
+|119|[Pascal's Triangle II, 杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii/) | [C](algorithms/00119-pascals-triangle-ii/main.c) | Easy |
+|120|[Triangle, 三角形最小路径和](https://leetcode-cn.com/problems/triangle/) | [C](algorithms/00120-triangle/main.c) | Medium |
+|121|[Best Time to Buy and Sell Stock, 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [C](algorithms/00121-best-time-to-buy-and-sell-stock/main.c) | Easy |
+|122|[Best Time to Buy and Sell Stock II, 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [C](algorithms/00122-best-time-to-buy-and-sell-stock-ii/main.c) | Medium |
+|124|[Binary Tree Maximum Path Sum, 二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/) | [C](algorithms/00124-binary-tree-maximum-path-sum/main.c) | Hard |
+|125|[Valid Palindrome, 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) | [C](algorithms/00125-valid-palindrome/main.c) | Easy |
+|128|[Longest Consecutive Sequence, 最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/) | [C](algorithms/00128-longest-consecutive-sequence/main.c) | Medium |
+|129|[Sum Root to Leaf Numbers, 求根节点到叶节点数字之和](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/) | [C](algorithms/00129-sum-root-to-leaf-numbers/main.c) | Medium |
 |134|[Gas Station, 加油站](https://leetcode-cn.com/problems/gas-station/) | [C](algorithms/00134-gas-station//main.c) | Medium |
 |138|[Copy List with Random Pointer, 复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/) | [C](algorithms/00138-copy-list-with-random-pointer//main.c) | Medium |
 |141|[Linked List Cycle, 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | [C](algorithms/00141-linked-list-cycle/main.c) | Easy |
