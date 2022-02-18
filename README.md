@@ -112,13 +112,18 @@
 |125|[Valid Palindrome, 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) | [C](algorithms/00125-valid-palindrome/main.c) | Easy |
 |128|[Longest Consecutive Sequence, 最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/) | [C](algorithms/00128-longest-consecutive-sequence/main.c) | Medium |
 |129|[Sum Root to Leaf Numbers, 求根节点到叶节点数字之和](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/) | [C](algorithms/00129-sum-root-to-leaf-numbers/main.c) | Medium |
+|130|[Surrounded Regions, 被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/) | [C](algorithms/00130-surrounded-regions/main.c) | Medium |
+|133|[Clone Graph, 克隆图](https://leetcode-cn.com/problems/clone-graph/) | [C](algorithms/00133-clone-graph/main.c) | Medium |
 |134|[Gas Station, 加油站](https://leetcode-cn.com/problems/gas-station/) | [C](algorithms/00134-gas-station//main.c) | Medium |
+|136|[Single Number, 只出现一次的数字](https://leetcode-cn.com/problems/single-number/) | [C](algorithms/00136-single-number//main.c) | Easy |
+|137|[Single Number II, 只出现一次的数字 II](https://leetcode-cn.com/problems/single-number-ii/) | [C](algorithms/00137-single-number-ii//main.c) | Medium |
 |138|[Copy List with Random Pointer, 复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/) | [C](algorithms/00138-copy-list-with-random-pointer//main.c) | Medium |
 |141|[Linked List Cycle, 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | [C](algorithms/00141-linked-list-cycle/main.c) | Easy |
 |142|[Linked List Cycle II, 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | [C](algorithms/00142-linked-list-cycle-ii) | Medium |
 |143|[Reorder List, 重排链表](https://leetcode-cn.com/problems/reorder-list/) | [C](algorithms/00143-reorder-list) | Medium |
 |144|[Binary Tree Preorder Traversal, 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | [C](algorithms/00144-binary-tree-preorder-traversal) | Easy |
 |145|[Binary Tree Postorder Traversal, 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | [C](algorithms/00145-binary-tree-postorder-traversal) | Easy |
+|146|[LRU Cache, LRU 缓存](https://leetcode-cn.com/problems/lru-cache/) | [C](algorithms/00146-lru-cache) | Medium |
 |147|[Insertion Sort List, 对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/) | [C](algorithms/00147-insertion-sort-list) | Medium |
 |148|[Sort List, 排序链表](https://leetcode-cn.com/problems/sort-list/) | [C](algorithms/00148-sort-list/main.c) | Medium |
 |150|[Evaluate Reverse Polish Notation, 逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/) | [C](algorithms/00150-evaluate-reverse-polish-notation/main.c) | Medium |
@@ -155,6 +160,7 @@
 |347|[Top K Frequent Elements, 前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) | [C](algorithms/00347-top-k-frequent-elements/main.c) | Medium |
 |392|[Is Subsequence, 判断子序列](https://leetcode-cn.com/problems/is-subsequence/) | [C](algorithms/00392-is-subsequence/main.c) | Easy |
 |438|[Find All Anagrams in a String, 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) | [C](algorithms/00438-find-all-anagrams-in-a-string/main.c) | Medium |
+|460|[LFU Cache, LFU 缓存](https://leetcode-cn.com/problems/lfu-cache/) | [C](algorithms/00460-lfu-cache/main.c) | Hard |
 |476|[Number Complement, 数字的补数](https://leetcode-cn.com/problems/number-complement/) | [C](algorithms/00476-number-complement/main.c) | Easy |
 |494|[Target Sum, 目标和](https://leetcode-cn.com/problems/target-sum/) | [C](algorithms/00494-target-sum/main.c) | Medium |
 |498|[Diagonal Traverse, 对角线遍历](https://leetcode-cn.com/problems/diagonal-traverse/) | [C](algorithms/00498-diagonal-traverse/main.c) | Medium |
