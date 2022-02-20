@@ -133,9 +133,20 @@
 |154|[Find Minimum in Rotated Sorted Array II, 寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [C](algorithms/00154-find-minimum-in-rotated-sorted-array-ii/main.c) | Hard |
 |155|[Min Stack, 最小栈](https://leetcode-cn.com/problems/min-stack/) | [C](algorithms/00155-min-stack/main.c) | Easy |
 |160|[Intersection of Two Linked Lists, 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [C](algorithms/00160-intersection-of-two-linked-lists/main.c) | Easy |
+|162|[Find Peak Element, 寻找峰值](https://leetcode-cn.com/problems/find-peak-element/) | [C](algorithms/00162-find-peak-element/main.c) | Medium |
+|165|[Compare Version Numbers, 比较版本号](https://leetcode-cn.com/problems/compare-version-numbers/) | [C](algorithms/00165-compare-version-numbers/main.c) | Medium |
+|166|[Fraction to Recurring Decimal, 分数到小数](https://leetcode-cn.com/problems/fraction-to-recurring-decimal/) | [C](algorithms/00166-fraction-to-recurring-decimal/main.c) | Medium |
+|167|[Two Sum II - Input Array Is Sorted, 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | [C](algorithms/00167-two-sum-ii-input-array-is-sorted/main.c) | Medium |
+|168|[Excel Sheet Column Title, Excel表列名称](https://leetcode-cn.com/problems/excel-sheet-column-title/) | [C](algorithms/00168-excel-sheet-column-title/main.c) | Easy |
 |169|[Majority Element, 多数元素](https://leetcode-cn.com/problems/majority-element/) | [C](algorithms/00169-majority-element/main.c) | Easy |
+|171|[Excel Sheet Column Number, Excel 表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number/) | [C](algorithms/00171-excel-sheet-column-number/main.c) | Easy |
+|172|[Factorial Trailing Zeroes, 阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/) | [C](algorithms/00172-factorial-trailing-zeroes/main.c) | Medium |
 |173|[Binary Search Tree Iterator, 二叉搜索树迭代器](https://leetcode-cn.com/problems/binary-search-tree-iterator/) | [C](algorithms/00173-binary-search-tree-iterator/main.c) | Medium |
 |179|[Largest Number, 最大数](https://leetcode-cn.com/problems/largest-number/) | [C](algorithms/00179-largest-number/main.c) | Medium |
+|189|[Rotate Array, 轮转数组](https://leetcode-cn.com/problems/rotate-array/) | [C](algorithms/00189-rotate-array/main.c) | Medium |
+|190|[Reverse Bits, 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/) | [C](algorithms/00190-reverse-bits/main.c) | Easy |
+|191|[Number of 1 Bits, 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/) | [C](algorithms/00191-number-of-1-bits/main.c) | Easy |
+|198|[House Robber, 打家劫舍](https://leetcode-cn.com/problems/house-robber/) | [C](algorithms/00198-nhouse-robber/main.c) | Medium |
 |199|[Binary Tree Right Side View, 二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/) | [C](algorithms/00199-binary-tree-right-side-view/main.c) | Medium |
 |200|[Number of Islands, 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) | [C](algorithms/00200-number-of-islands/main.c) | Medium |
 |202|[Happy Number, 快乐数](https://leetcode-cn.com/problems/happy-number/) | [C](algorithms/00202-happy-number/main.c) | Easy |
