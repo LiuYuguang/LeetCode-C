@@ -42,6 +42,7 @@
 |46|[Permutations, 全排列](https://leetcode-cn.com/problems/permutations) | [C](algorithms/00046-permutations/main.c) | Medium |
 |47|[Permutations II, 全排列 II](https://leetcode-cn.com/problems/permutations-ii) | [C](algorithms/00047-permutations-ii/main.c) | Medium |
 |48|[Rotate Image, 旋转图像](https://leetcode-cn.com/problems/rotate-image) | [C](algorithms/00048-rotate-image/main.c) | Medium |
+|49|[Group Anagrams, 字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) | [C](algorithms/00049-group-anagrams/main.c) | Medium |
 |50|[Pow(x, n)](https://leetcode-cn.com/problems/powx-n) | [C](algorithms/00050-powx-n/main.c) | Medium |
 |51|[N-Queens, N 皇后](https://leetcode-cn.com/problems/n-queens) | [C](algorithms/00051-n-queens/main.c) | Hard |
 |52|[N-Queens II, N皇后 II](https://leetcode-cn.com/problems/n-queens-ii) | [C](algorithms/00052-n-queens-ii/main.c) | Hard |
@@ -143,6 +144,7 @@
 |172|[Factorial Trailing Zeroes, 阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/) | [C](algorithms/00172-factorial-trailing-zeroes/main.c) | Medium |
 |173|[Binary Search Tree Iterator, 二叉搜索树迭代器](https://leetcode-cn.com/problems/binary-search-tree-iterator/) | [C](algorithms/00173-binary-search-tree-iterator/main.c) | Medium |
 |179|[Largest Number, 最大数](https://leetcode-cn.com/problems/largest-number/) | [C](algorithms/00179-largest-number/main.c) | Medium |
+|187|[Repeated DNA Sequences, 重复的DNA序列](https://leetcode-cn.com/problems/repeated-dna-sequences/) | [C](algorithms/00187-repeated-dna-sequences/main.c) | Medium |
 |189|[Rotate Array, 轮转数组](https://leetcode-cn.com/problems/rotate-array/) | [C](algorithms/00189-rotate-array/main.c) | Medium |
 |190|[Reverse Bits, 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/) | [C](algorithms/00190-reverse-bits/main.c) | Easy |
 |191|[Number of 1 Bits, 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/) | [C](algorithms/00191-number-of-1-bits/main.c) | Easy |
