@@ -7,6 +7,7 @@
 |7|[Reverse Integer, 整数反转](https://leetcode-cn.com/problems/reverse-integer) | [C](algorithms/00007-reverse-integer/main.c) | Easy |
 |8|[String To Integer Atoi, 字符串转换整数](https://leetcode-cn.com/problems/string-to-integer-atoi) | [C](algorithms/00008-string-to-integer-atoi/main.c) | Medium |
 |9|[Palindrome Number, 回文数](https://leetcode-cn.com/problems/palindrome-number) | [C](algorithms/00009-palindrome-number/main.c) | Easy |
+|10|[Regular Expression Matching, 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/) | [C](algorithms/00010-regular-expression-matching/main.c) | Hard |
 |11|[Container With Most Water, 盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water) | [C](algorithms/00011-container-with-most-water/main.c) | Medium |
 |12|[Integer To Roman, 整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman) | [C](algorithms/00012-integer-to-roman/main.c) | Medium |
 |13|[Roman To Integer, 罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer) | [C](algorithms/00013-roman-to-integer/main.c) | Easy |
@@ -27,6 +28,7 @@
 |28|[Implement strStr(), 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr) | [C](algorithms/00028-implement-strstr/main.c) | Easy |
 |29|[Divide Two Integers, 两数相除](https://leetcode-cn.com/problems/divide-two-integers/) | [C](algorithms/00029-divide-two-integers/main.c) | Medium |
 |31|[Next Permutation, 下一个排列](https://leetcode-cn.com/problems/next-permutation/) | [C](algorithms/00031-next-permutation/main.c) | Medium |
+|32|[Longest Valid Parentheses, 最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/) | [C](algorithms/00032-longest-valid-parentheses/main.c) | Hard |
 |33|[Search in Rotated Sorted Array, 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [C](algorithms/00033-search-in-rotated-sorted-array/main.c) | Medium |
 |34|[Find First and Last Position of Element in Sorted Array, 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [C](algorithms/00034-find-first-and-last-position-of-element-in-sorted-array/main.c) | Medium |
 |35|[Search Insert Position, 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | [C](algorithms/00035-search-insert-position/main.c) | Easy |
@@ -38,6 +40,7 @@
 |41|[First Missing Positive, 缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive) | [C](algorithms/00041-first-missing-positive/main.c) | Hard |
 |42|[Trapping Rain Water, 接雨水](https://leetcode-cn.com/problems/trapping-rain-water) | [C](algorithms/00042-trapping-rain-water/main.c) | Hard |
 |43|[Multiply Strings, 字符串相乘](https://leetcode-cn.com/problems/multiply-strings) | [C](algorithms/00043-multiply-strings/main.c) | Medium |
+|44|[Wildcard Matching, 通配符匹配](https://leetcode-cn.com/problems/wildcard-matching/) | [C](algorithms/00044-wildcard-matching/main.c) | Hard |
 |45|[Jump Game II, 跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/) | [C](algorithms/00045-jump-game-ii/main.c) | Medium |
 |46|[Permutations, 全排列](https://leetcode-cn.com/problems/permutations) | [C](algorithms/00046-permutations/main.c) | Medium |
 |47|[Permutations II, 全排列 II](https://leetcode-cn.com/problems/permutations-ii) | [C](algorithms/00047-permutations-ii/main.c) | Medium |
@@ -50,6 +53,7 @@
 |54|[Spiral Matrix, 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix) | [C](algorithms/00054-spiral-matrix/main.c) | Medium |
 |55|[Jump Game, 跳跃游戏](https://leetcode-cn.com/problems/jump-game/) | [C](algorithms/00055-jump-game/main.c) | Medium |
 |56|[Merge Intervals, 合并区间](https://leetcode-cn.com/problems/merge-intervals/) | [C](algorithms/00056-merge-intervals/main.c) | Medium |
+|57|[Insert Interval, 插入区间](https://leetcode-cn.com/problems/insert-interval/) | [C](algorithms/00057-insert-interval/main.c) | Medium |
 |58|[Length of Last Word, 最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word) | [C](algorithms/00058-length-of-last-word/main.c) | Easy |
 |59|[Spiral Matrix II, 螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii) | [C](algorithms/00059-spiral-matrix-ii/main.c) | Medium |
 |60|[Permutation Sequence, 排列序列](https://leetcode-cn.com/problems/permutation-sequence/) | [C](algorithms/00060-permutation-sequence/main.c) | Hard |
