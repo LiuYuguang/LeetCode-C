@@ -3,6 +3,7 @@
 |1|[Two Sum, 两数之和](https://leetcode-cn.com/problems/two-sum) | [C](algorithms/00001-two-sum/main.c) | Easy |
 |2|[Add Two Numbers, 两数相加](https://leetcode-cn.com/problems/add-two-numbers) | [C](algorithms/00002-add-two-numbers/main.c) | Medium |
 |3|[Longest Substring Without Repeating Characters, 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters) | [C](algorithms/00003-longest-substring-without-repeating-characters/main.c) | Medium |
+|5|[Longest Palindromic Substring, 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [C](algorithms/00005-longest-palindromic-substring/main.c) | Medium |
 |6|[Zigzag Conversion, Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion) | [C](algorithms/00006-zigzag-conversion/main.c) | Medium |
 |7|[Reverse Integer, 整数反转](https://leetcode-cn.com/problems/reverse-integer) | [C](algorithms/00007-reverse-integer/main.c) | Easy |
 |8|[String To Integer Atoi, 字符串转换整数](https://leetcode-cn.com/problems/string-to-integer-atoi) | [C](algorithms/00008-string-to-integer-atoi/main.c) | Medium |
