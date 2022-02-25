@@ -107,6 +107,7 @@
 |112|[Path Sum, 路径总和](https://leetcode-cn.com/problems/path-sum/) | [C](algorithms/00112-path-sum/main.c) | Easy |
 |113|[Path Sum II, 路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/) | [C](algorithms/00113-path-sum-ii/main.c) | Medium |
 |114|[Flatten Binary Tree to Linked List, 二叉树展开为链表](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/) | [C](algorithms/00114-flatten-binary-tree-to-linked-list/main.c) | Medium |
+|115|[Distinct Subsequences, 不同的子序列](https://leetcode-cn.com/problems/distinct-subsequences/) | [C](algorithms/00115-distinct-subsequences/main.c) | Hard |
 |116|[Populating Next Right Pointers in Each Node, 填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/) | [C](algorithms/00116-populating-next-right-pointers-in-each-node/main.c) | Medium |
 |117|[Populating Next Right Pointers in Each Node II, 填充每个节点的下一个右侧节点指针 II](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/) | [C](algorithms/00117-populating-next-right-pointers-in-each-node-ii/main.c) | Medium |
 |118|[Pascal's Triangle, 杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) | [C](algorithms/00118-pascals-triangle/main.c) | Easy |
@@ -124,6 +125,8 @@
 |136|[Single Number, 只出现一次的数字](https://leetcode-cn.com/problems/single-number/) | [C](algorithms/00136-single-number//main.c) | Easy |
 |137|[Single Number II, 只出现一次的数字 II](https://leetcode-cn.com/problems/single-number-ii/) | [C](algorithms/00137-single-number-ii//main.c) | Medium |
 |138|[Copy List with Random Pointer, 复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/) | [C](algorithms/00138-copy-list-with-random-pointer//main.c) | Medium |
+|139|[Word Break, 单词拆分](https://leetcode-cn.com/problems/word-break/) | [C](algorithms/00139-word-break//main.c) | Medium |
+|140|[Word Break II, 单词拆分 II](https://leetcode-cn.com/problems/word-break-ii/) | [C](algorithms/00140-word-break-ii/main.c) | Hard |
 |141|[Linked List Cycle, 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | [C](algorithms/00141-linked-list-cycle/main.c) | Easy |
 |142|[Linked List Cycle II, 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | [C](algorithms/00142-linked-list-cycle-ii/main.c) | Medium |
 |143|[Reorder List, 重排链表](https://leetcode-cn.com/problems/reorder-list/) | [C](algorithms/00143-reorder-list/main.c) | Medium |
@@ -153,7 +156,7 @@
 |189|[Rotate Array, 轮转数组](https://leetcode-cn.com/problems/rotate-array/) | [C](algorithms/00189-rotate-array/main.c) | Medium |
 |190|[Reverse Bits, 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/) | [C](algorithms/00190-reverse-bits/main.c) | Easy |
 |191|[Number of 1 Bits, 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/) | [C](algorithms/00191-number-of-1-bits/main.c) | Easy |
-|198|[House Robber, 打家劫舍](https://leetcode-cn.com/problems/house-robber/) | [C](algorithms/00198-nhouse-robber/main.c) | Medium |
+|198|[House Robber, 打家劫舍](https://leetcode-cn.com/problems/house-robber/) | [C](algorithms/00198-house-robber/main.c) | Medium |
 |199|[Binary Tree Right Side View, 二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/) | [C](algorithms/00199-binary-tree-right-side-view/main.c) | Medium |
 |200|[Number of Islands, 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) | [C](algorithms/00200-number-of-islands/main.c) | Medium |
 |202|[Happy Number, 快乐数](https://leetcode-cn.com/problems/happy-number/) | [C](algorithms/00202-happy-number/main.c) | Easy |
@@ -162,11 +165,13 @@
 |208|[Implement Trie (Prefix Tree), 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | [C](algorithms/00208-implement-trie-prefix-tree/main.c) | Medium |
 |209|[Minimum Size Subarray Sum, 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) | [C](algorithms/00209-minimum-size-subarray-sum/main.c) | Medium |
 |210|[Course Schedule II, 课程表 II](https://leetcode-cn.com/problems/course-schedule-ii/) | [C](algorithms/00210-course-schedule-ii/main.c) | Medium |
+|213|[House Robber II, 打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/) | [C](algorithms/00213-house-robber-ii/main.c) | Medium |
 |215|[Kth Largest Element in an Array, 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | [C](algorithms/00215-kth-largest-element-in-an-array/main.c) | Medium |
 |221|[Maximal Square, 最大正方形](https://leetcode-cn.com/problems/maximal-square/) | [C](algorithms/00221-maximal-square/main.c) | Medium |
 |223|[Rectangle Area, 矩形面积](https://leetcode-cn.com/problems/rectangle-area/) | [C](algorithms/00223-rectangle-area/main.c) | Medium |
 |230|[Kth Smallest Element in a BST, 二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/) | [C](algorithms/00230-kth-smallest-element-in-a-bst/main.c) | Easy |
 |232|[Implement Queue using Stacks, 用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | [C](algorithms/00232-implement-queue-using-stacks/main.c) | Easy |
+|233|[Number of Digit One, 数字 1 的个数](https://leetcode-cn.com/problems/number-of-digit-one/) | [C](algorithms/00233-number-of-digit-one/main.c) | Hard |
 |234|[Palindrome Linked List, 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) | [C](algorithms/00234-palindrome-linked-list/main.c) | Easy |
 |235|[Lowest Common Ancestor of a Binary Search Tree, 二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [C](algorithms/00235-lowest-common-ancestor-of-a-binary-search-tree/main.c) | Easy |
 |236|[Lowest Common Ancestor of a Binary Tree, 二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [C](algorithms/00236-lowest-common-ancestor-of-a-binary-tree/main.c) | Medium |

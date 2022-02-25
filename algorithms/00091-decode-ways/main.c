@@ -28,46 +28,57 @@
 //     return count;
 // }
 
-int numDecodings(char * s){
-    int nums[101] = {0};
-    int i;
-    for(i=0;s[i]!='\0'&&i<1;i++){
-        if(s[i] >= '1' && s[i] <= '9'){
-            nums[i] = 1;
-        }
+int atoi_n(char *s,int l){
+    int n = 0,i;
+    for(i=0;i<l;i++){
+        n = n*10 + (s[i]-'0');
     }
-    for(;s[i]!='\0'&&i<2;i++){
-        if(s[i] >= '1' && s[i] <= '9'){
-            nums[i] += nums[i-1];
+    return n;
+}
+
+int numDecodings(char * s){
+    int count[100],i,n; // s[i]为后缀的编码方式
+    int len = strlen(s);
+
+    if(len > 0){
+        count[0] = 0;
+        if(s[0] >= '1' && s[0] <= '9'){
+            count[0] = 1;;
         }
-        if(s[i-1] == '1'){
-            if(s[i] >= '0' && s[i] <= '9'){
-                nums[i] += 1;
-            }
-        }
-        if(s[i-1] == '2'){
-            if(s[i] >= '0' && s[i] <= '6'){
-                nums[i] += 1;
-            }
+        if(count[0] == 0){
+            return 0;
         }
     }
 
-    for(;s[i]!='\0';i++){
-        if(s[i] >= '1' && s[i] <= '9'){
-            nums[i] += nums[i-1];
+    if(len > 1){
+        count[1] = 0;
+
+        n = atoi_n(&s[0],2);
+        if(n >= 10 && n <= 26){
+            count[1] = 1;
         }
-        if(s[i-1] == '1'){
-            if(s[i] >= '0' && s[i] <= '9'){
-                nums[i] += nums[i-2];
-            }
+        if(s[1] >= '1' && s[1] <= '9'){
+            count[1] += 1;
         }
-        if(s[i-1] == '2'){
-            if(s[i] >= '0' && s[i] <= '6'){
-                nums[i] += nums[i-2];
-            }
+        if(count[1] == 0){
+            return 0;
         }
     }
-    return nums[i-1];
+    
+    for(i=2;i<len;i++){
+        count[i] = 0;
+        n = atoi_n(&s[i-1],2);
+        if(n >= 10 && n <= 26){
+            count[i] = count[i-2];
+        }
+        if(s[i] >= '1' && s[i] <= '9'){
+            count[i] += count[i-1];
+        }
+        if(count[i] == 0){
+            return 0;
+        }
+    }
+    return count[len-1];
 }
 
 int main(){
