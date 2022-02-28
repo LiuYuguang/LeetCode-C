@@ -180,9 +180,17 @@
 |264|[Ugly Number II, 丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/) | [C](algorithms/00264-ugly-number-ii/main.c) | Medium |
 |273|[Integer to English Words, 整数转换英文表示](https://leetcode-cn.com/problems/integer-to-english-words/) | [C](algorithms/00273-integer-to-english-words/main.c) | Medium |
 |274|[H-Index, H 指数](https://leetcode-cn.com/problems/h-index/) | [C](algorithms/00274-h-index/main.c) | Medium |
+|279|[Perfect Squares, 完全平方数](https://leetcode-cn.com/problems/perfect-squares/) | [C](algorithms/00279-perfect-squares/main.c) | Medium |
+|300|[Longest Increasing Subsequence, 最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | [C](algorithms/00300-longest-increasing-subsequence/main.c) | Medium |
+|312|[Burst Balloons, 戳气球](https://leetcode-cn.com/problems/burst-balloons/) | [C](algorithms/00312-burst-balloons/main.c) | Hard |
 |313|[Super Ugly Number, 超级丑数](https://leetcode-cn.com/problems/super-ugly-number/) | [C](algorithms/00313-super-ugly-number/main.c) | Medium |
+|322|[Coin Change, 零钱兑换](https://leetcode-cn.com/problems/coin-change/) | [C](algorithms/00322-coin-change/main.c) | Medium |
 |328|[Odd Even Linked List, 奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/) | [C](algorithms/00328-odd-even-linked-list/main.c) | Medium |
+|329|[Longest Increasing Path in a Matrix, 矩阵中的最长递增路径](https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix/) | [C](algorithms/00329-longest-increasing-path-in-a-matrix/main.c) | Hard |
+|338|[Counting Bits, 比特位计数](https://leetcode-cn.com/problems/counting-bits/) | [C](algorithms/00338-counting-bits/main.c) | Easy |
+|343|[Integer Break, 整数拆分](https://leetcode-cn.com/problems/integer-break/) | [C](algorithms/00343-integer-break/main.c) | Medium |
 |347|[Top K Frequent Elements, 前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) | [C](algorithms/00347-top-k-frequent-elements/main.c) | Medium |
+|354|[Russian Doll Envelopes, 俄罗斯套娃信封问题](https://leetcode-cn.com/problems/russian-doll-envelopes/) | [C](algorithms/00354-russian-doll-envelopes/main.c) | Hard |
 |392|[Is Subsequence, 判断子序列](https://leetcode-cn.com/problems/is-subsequence/) | [C](algorithms/00392-is-subsequence/main.c) | Easy |
 |438|[Find All Anagrams in a String, 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) | [C](algorithms/00438-find-all-anagrams-in-a-string/main.c) | Medium |
 |460|[LFU Cache, LFU 缓存](https://leetcode-cn.com/problems/lfu-cache/) | [C](algorithms/00460-lfu-cache/main.c) | Hard |
