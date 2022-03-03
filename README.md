@@ -214,6 +214,7 @@
 |841|[Keys and Rooms, 钥匙和房间](https://leetcode-cn.com/problems/keys-and-rooms/) | [C](algorithms/00841-keys-and-rooms/main.c) | Medium |
 |844|[Backspace String Compare, 比较含退格的字符串](https://leetcode-cn.com/problems/backspace-string-compare/) | [C](algorithms/00844-backspace-string-compare/main.c) | Easy |
 |876|[Middle of the Linked List, 链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/) | [C](algorithms/00876-middle-of-the-linked-list/main.c) | Easy |
+|887|[Super Egg Drop, 鸡蛋掉落](https://leetcode-cn.com/problems/super-egg-drop/) | [C](algorithms/00887-super-egg-drop/main.c) | Hard |
 |925|[Long Pressed Name, 长按键入](https://leetcode-cn.com/problems/long-pressed-name/) | [C](algorithms/00925-long-pressed-name/main.c) | Easy |
 |946|[Validate Stack Sequences, 验证栈序列](https://leetcode-cn.com/problems/validate-stack-sequences/) | [C](algorithms/00946-validate-stack-sequences/main.c) | Medium |
 |957|[Prison Cells After N Days, N 天后的牢房](https://leetcode-cn.com/problems/prison-cells-after-n-days/) | [C](algorithms/00957-prison-cells-after-n-days/main.c) | Medium |
