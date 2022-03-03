@@ -192,6 +192,7 @@
 |347|[Top K Frequent Elements, 前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) | [C](algorithms/00347-top-k-frequent-elements/main.c) | Medium |
 |354|[Russian Doll Envelopes, 俄罗斯套娃信封问题](https://leetcode-cn.com/problems/russian-doll-envelopes/) | [C](algorithms/00354-russian-doll-envelopes/main.c) | Hard |
 |392|[Is Subsequence, 判断子序列](https://leetcode-cn.com/problems/is-subsequence/) | [C](algorithms/00392-is-subsequence/main.c) | Easy |
+|416|[Partition Equal Subset Sum, 分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum/) | [C](algorithms/00416-partition-equal-subset-sum/main.c) | Medium |
 |438|[Find All Anagrams in a String, 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) | [C](algorithms/00438-find-all-anagrams-in-a-string/main.c) | Medium |
 |460|[LFU Cache, LFU 缓存](https://leetcode-cn.com/problems/lfu-cache/) | [C](algorithms/00460-lfu-cache/main.c) | Hard |
 |476|[Number Complement, 数字的补数](https://leetcode-cn.com/problems/number-complement/) | [C](algorithms/00476-number-complement/main.c) | Easy |
