@@ -170,6 +170,7 @@
 |218|[The Skyline Problem, 天际线问题](https://leetcode-cn.com/problems/the-skyline-problem/) | [C](algorithms/00218-the-skyline-problem/main.c) | Hard |
 |221|[Maximal Square, 最大正方形](https://leetcode-cn.com/problems/maximal-square/) | [C](algorithms/00221-maximal-square/main.c) | Medium |
 |223|[Rectangle Area, 矩形面积](https://leetcode-cn.com/problems/rectangle-area/) | [C](algorithms/00223-rectangle-area/main.c) | Medium |
+|224|[Basic Calculator, 基本计算器](https://leetcode-cn.com/problems/basic-calculator/) | [C](algorithms/00224-basic-calculator/main.c) | Hard |
 |230|[Kth Smallest Element in a BST, 二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/) | [C](algorithms/00230-kth-smallest-element-in-a-bst/main.c) | Easy |
 |232|[Implement Queue using Stacks, 用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | [C](algorithms/00232-implement-queue-using-stacks/main.c) | Easy |
 |233|[Number of Digit One, 数字 1 的个数](https://leetcode-cn.com/problems/number-of-digit-one/) | [C](algorithms/00233-number-of-digit-one/main.c) | Hard |
@@ -220,6 +221,7 @@
 |925|[Long Pressed Name, 长按键入](https://leetcode-cn.com/problems/long-pressed-name/) | [C](algorithms/00925-long-pressed-name/main.c) | Easy |
 |946|[Validate Stack Sequences, 验证栈序列](https://leetcode-cn.com/problems/validate-stack-sequences/) | [C](algorithms/00946-validate-stack-sequences/main.c) | Medium |
 |957|[Prison Cells After N Days, N 天后的牢房](https://leetcode-cn.com/problems/prison-cells-after-n-days/) | [C](algorithms/00957-prison-cells-after-n-days/main.c) | Medium |
+|969|[Pancake Sorting, 煎饼排序](https://leetcode-cn.com/problems/pancake-sorting/) | [C](algorithms/00969-pancake-sorting/main.c) | Medium |
 |977|[Squares of a Sorted Array, 有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) | [C](algorithms/00977-squares-of-a-sorted-array/main.c) | Easy |
 |1009|[Complement of Base 10 Integer, 十进制整数的反码](https://leetcode-cn.com/problems/complement-of-base-10-integer/) | [C](algorithms/01009-complement-of-base-10-integer/main.c) | Easy |
 |1019|[Next Greater Node In Linked List, 链表中的下一个更大节点](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/) | [C](algorithms/01019-next-greater-node-in-linked-list/main.c) | Medium |
