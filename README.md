@@ -1,57 +1,57 @@
-| # | Title | Solution | Difficulty |
-|---| ----- | -------- | ---------- |
-|1|[Two Sum, 两数之和](https://leetcode-cn.com/problems/two-sum) | [C](algorithms/00001-two-sum/main.c) | Easy |
-|2|[Add Two Numbers, 两数相加](https://leetcode-cn.com/problems/add-two-numbers) | [C](algorithms/00002-add-two-numbers/main.c) | Medium |
-|3|[Longest Substring Without Repeating Characters, 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters) | [C](algorithms/00003-longest-substring-without-repeating-characters/main.c) | Medium |
-|5|[Longest Palindromic Substring, 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [C](algorithms/00005-longest-palindromic-substring/main.c) | Medium |
-|6|[Zigzag Conversion, Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion) | [C](algorithms/00006-zigzag-conversion/main.c) | Medium |
-|7|[Reverse Integer, 整数反转](https://leetcode-cn.com/problems/reverse-integer) | [C](algorithms/00007-reverse-integer/main.c) | Easy |
-|8|[String To Integer Atoi, 字符串转换整数](https://leetcode-cn.com/problems/string-to-integer-atoi) | [C](algorithms/00008-string-to-integer-atoi/main.c) | Medium |
-|9|[Palindrome Number, 回文数](https://leetcode-cn.com/problems/palindrome-number) | [C](algorithms/00009-palindrome-number/main.c) | Easy |
-|10|[Regular Expression Matching, 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/) | [C](algorithms/00010-regular-expression-matching/main.c) | Hard |
-|11|[Container With Most Water, 盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water) | [C](algorithms/00011-container-with-most-water/main.c) | Medium |
-|12|[Integer To Roman, 整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman) | [C](algorithms/00012-integer-to-roman/main.c) | Medium |
-|13|[Roman To Integer, 罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer) | [C](algorithms/00013-roman-to-integer/main.c) | Easy |
-|14|[Longest Common Prefix, 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix) | [C](algorithms/00014-longest-common-prefix/main.c) | Easy |
+| # | Title | Solution | Difficulty |Tags|
+|---| ----- | -------- | ---------- |----|
+|1|[Two Sum, 两数之和](https://leetcode-cn.com/problems/two-sum) | [C](algorithms/00001-two-sum/main.c) | Easy | Two Pointers, 双指针 |
+|2|[Add Two Numbers, 两数相加](https://leetcode-cn.com/problems/add-two-numbers) | [C](algorithms/00002-add-two-numbers/main.c) | Medium | Two Pointers, 双指针 |
+|3|[Longest Substring Without Repeating Characters, 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters) | [C](algorithms/00003-longest-substring-without-repeating-characters/main.c) | Medium | Sliding Window, 滑动窗口 |
+|5|[Longest Palindromic Substring, 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [C](algorithms/00005-longest-palindromic-substring/main.c) | Medium | Dynamic Programming, 动态规划 |
+|6|[Zigzag Conversion, Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion) | [C](algorithms/00006-zigzag-conversion/main.c) | Medium ||
+|7|[Reverse Integer, 整数反转](https://leetcode-cn.com/problems/reverse-integer) | [C](algorithms/00007-reverse-integer/main.c) | Easy ||
+|8|[String To Integer Atoi, 字符串转换整数](https://leetcode-cn.com/problems/string-to-integer-atoi) | [C](algorithms/00008-string-to-integer-atoi/main.c) | Medium ||
+|9|[Palindrome Number, 回文数](https://leetcode-cn.com/problems/palindrome-number) | [C](algorithms/00009-palindrome-number/main.c) | Easy | Two Pointers, 双指针 |
+|10|[Regular Expression Matching, 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/) | [C](algorithms/00010-regular-expression-matching/main.c) | Hard | Dynamic Programming, 动态规划 |
+|11|[Container With Most Water, 盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water) | [C](algorithms/00011-container-with-most-water/main.c) | Medium | Two Pointers, 双指针 |
+|12|[Integer To Roman, 整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman) | [C](algorithms/00012-integer-to-roman/main.c) | Medium ||
+|13|[Roman To Integer, 罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer) | [C](algorithms/00013-roman-to-integer/main.c) | Easy ||
+|14|[Longest Common Prefix, 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix) | [C](algorithms/00014-longest-common-prefix/main.c) | Easy | Trie, 前缀树 |
 |15|[Three Sum, 三数之和](https://leetcode-cn.com/problems/3sum) | [C](algorithms/00015-3sum/main.c) | Medium |
 |16|[3Sum Closest, 最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest/) | [C](algorithms/00016-3sum-closest/main.c) | Medium |
 |17|[Letter Combinations of a Phone Number, 电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number) | [C](algorithms/00017-letter-combinations-of-a-phone-number/main.c) | Medium |
-|18|[4Sum, 四数之和](https://leetcode-cn.com/problems/4sum/) | [C](algorithms/00018-4sum/main.c) | Medium |
-|19|[Remove Nth Node From End Of List, 删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list) | [C](algorithms/00019-remove-nth-node-from-end-of-list/main.c) | Medium |
-|20|[Valid Parentheses, 有效的括号](https://leetcode-cn.com/problems/valid-parentheses) | [C](algorithms/00020-valid-parentheses/main.c) | Easy |
-|21|[Merge Two Sorted Lists, 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists) | [C](algorithms/00021-merge-two-sorted-lists/main.c) | Easy |
-|22|[Generate Parentheses, 括号生成](https://leetcode-cn.com/problems/generate-parentheses) | [C](algorithms/00022-generate-parentheses/main.c) | Medium |
-|23|[Merge K Sorted Lists, 合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists) | [C](algorithms/00023-merge-k-sorted-lists/main.c) | Hard |
-|24|[Swap Nodes in Pairs, 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs) | [C](algorithms/00024-swap-nodes-in-pairs/main.c) | Medium |
-|25|[Reverse Nodes in k-Group, K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group) | [C](algorithms/00025-reverse-nodes-in-k-group/main.c) | Hard |
-|26|[Remove Duplicates from Sorted Array, 删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array) | [C](algorithms/00026-remove-duplicates-from-sorted-array/main.c) | Easy |
-|27|[Remove Element, 移除元素](https://leetcode-cn.com/problems/remove-element) | [C](algorithms/00027-remove-element/main.c) | Easy |
-|28|[Implement strStr(), 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr) | [C](algorithms/00028-implement-strstr/main.c) | Easy |
-|29|[Divide Two Integers, 两数相除](https://leetcode-cn.com/problems/divide-two-integers/) | [C](algorithms/00029-divide-two-integers/main.c) | Medium |
-|31|[Next Permutation, 下一个排列](https://leetcode-cn.com/problems/next-permutation/) | [C](algorithms/00031-next-permutation/main.c) | Medium |
-|32|[Longest Valid Parentheses, 最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/) | [C](algorithms/00032-longest-valid-parentheses/main.c) | Hard |
-|33|[Search in Rotated Sorted Array, 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [C](algorithms/00033-search-in-rotated-sorted-array/main.c) | Medium |
-|34|[Find First and Last Position of Element in Sorted Array, 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [C](algorithms/00034-find-first-and-last-position-of-element-in-sorted-array/main.c) | Medium |
-|35|[Search Insert Position, 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | [C](algorithms/00035-search-insert-position/main.c) | Easy |
-|36|[Valid Sudoku, 有效的数独](https://leetcode-cn.com/problems/valid-sudoku) | [C](algorithms/00036-valid-sudoku/main.c) | Medium |
-|37|[Sudoku Solver, 解数独](https://leetcode-cn.com/problems/sudoku-solver) | [C](algorithms/00037-sudoku-solver/main.c) | Hard |
-|38|[Count and Say, 外观数列](https://leetcode-cn.com/problems/count-and-say/) | [C](algorithms/00038-count-and-say/main.c) | Medium |
-|39|[Combination Sum, 组合总和](https://leetcode-cn.com/problems/combination-sum) | [C](algorithms/00039-combination-sum/main.c) | Medium |
-|40|[Combination Sum II, 组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii) | [C](algorithms/00040-combination-sum-ii/main.c) | Medium |
-|41|[First Missing Positive, 缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive) | [C](algorithms/00041-first-missing-positive/main.c) | Hard |
-|42|[Trapping Rain Water, 接雨水](https://leetcode-cn.com/problems/trapping-rain-water) | [C](algorithms/00042-trapping-rain-water/main.c) | Hard |
+|18|[4Sum, 四数之和](https://leetcode-cn.com/problems/4sum/) | [C](algorithms/00018-4sum/main.c) | Medium | Two Pointers, 双指针 |
+|19|[Remove Nth Node From End Of List, 删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list) | [C](algorithms/00019-remove-nth-node-from-end-of-list/main.c) | Medium | Fast & Slow pointers, 快慢指针 |
+|20|[Valid Parentheses, 有效的括号](https://leetcode-cn.com/problems/valid-parentheses) | [C](algorithms/00020-valid-parentheses/main.c) | Easy | Stack, 栈 |
+|21|[Merge Two Sorted Lists, 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists) | [C](algorithms/00021-merge-two-sorted-lists/main.c) | Easy | Two Pointers, 双指针 |
+|22|[Generate Parentheses, 括号生成](https://leetcode-cn.com/problems/generate-parentheses) | [C](algorithms/00022-generate-parentheses/main.c) | Medium | Backtracking, 回溯 |
+|23|[Merge K Sorted Lists, 合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists) | [C](algorithms/00023-merge-k-sorted-lists/main.c) | Hard | Stack, 栈 |
+|24|[Swap Nodes in Pairs, 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs) | [C](algorithms/00024-swap-nodes-in-pairs/main.c) | Medium ||
+|25|[Reverse Nodes in k-Group, K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group) | [C](algorithms/00025-reverse-nodes-in-k-group/main.c) | Hard | Fast & Slow pointers, 快慢指针 
+|26|[Remove Duplicates from Sorted Array, 删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array) | [C](algorithms/00026-remove-duplicates-from-sorted-array/main.c) | Easy | Two Pointers, 双指针 |
+|27|[Remove Element, 移除元素](https://leetcode-cn.com/problems/remove-element) | [C](algorithms/00027-remove-element/main.c) | Easy | Two Pointers, 双指针 |
+|28|[Implement strStr(), 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr) | [C](algorithms/00028-implement-strstr/main.c) | Easy ||
+|29|[Divide Two Integers, 两数相除](https://leetcode-cn.com/problems/divide-two-integers/) | [C](algorithms/00029-divide-two-integers/main.c) | Medium ||
+|31|[Next Permutation, 下一个排列](https://leetcode-cn.com/problems/next-permutation/) | [C](algorithms/00031-next-permutation/main.c) | Medium ||
+|32|[Longest Valid Parentheses, 最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/) | [C](algorithms/00032-longest-valid-parentheses/main.c) | Hard | Dynamic Programming, 动态规划 |
+|33|[Search in Rotated Sorted Array, 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [C](algorithms/00033-search-in-rotated-sorted-array/main.c) | Medium | Binary Search, 二分查找 |
+|34|[Find First and Last Position of Element in Sorted Array, 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [C](algorithms/00034-find-first-and-last-position-of-element-in-sorted-array/main.c) | Medium | Binary Search, 二分查找 |
+|35|[Search Insert Position, 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | [C](algorithms/00035-search-insert-position/main.c) | Easy | Binary Search, 二分查找 |
+|36|[Valid Sudoku, 有效的数独](https://leetcode-cn.com/problems/valid-sudoku) | [C](algorithms/00036-valid-sudoku/main.c) | Medium ||
+|37|[Sudoku Solver, 解数独](https://leetcode-cn.com/problems/sudoku-solver) | [C](algorithms/00037-sudoku-solver/main.c) | Hard | Depth-First Search, 深度优先搜索 |
+|38|[Count and Say, 外观数列](https://leetcode-cn.com/problems/count-and-say/) | [C](algorithms/00038-count-and-say/main.c) | Medium ||
+|39|[Combination Sum, 组合总和](https://leetcode-cn.com/problems/combination-sum) | [C](algorithms/00039-combination-sum/main.c) | Medium | Backtracking, 回溯 |
+|40|[Combination Sum II, 组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii) | [C](algorithms/00040-combination-sum-ii/main.c) | Medium | Backtracking, 回溯 |
+|41|[First Missing Positive, 缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive) | [C](algorithms/00041-first-missing-positive/main.c) | Hard | Cyclic Sort, 循环排序 |
+|42|[Trapping Rain Water, 接雨水](https://leetcode-cn.com/problems/trapping-rain-water) | [C](algorithms/00042-trapping-rain-water/main.c) | Hard ||
 |43|[Multiply Strings, 字符串相乘](https://leetcode-cn.com/problems/multiply-strings) | [C](algorithms/00043-multiply-strings/main.c) | Medium |
-|44|[Wildcard Matching, 通配符匹配](https://leetcode-cn.com/problems/wildcard-matching/) | [C](algorithms/00044-wildcard-matching/main.c) | Hard |
-|45|[Jump Game II, 跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/) | [C](algorithms/00045-jump-game-ii/main.c) | Medium |
-|46|[Permutations, 全排列](https://leetcode-cn.com/problems/permutations) | [C](algorithms/00046-permutations/main.c) | Medium |
-|47|[Permutations II, 全排列 II](https://leetcode-cn.com/problems/permutations-ii) | [C](algorithms/00047-permutations-ii/main.c) | Medium |
-|48|[Rotate Image, 旋转图像](https://leetcode-cn.com/problems/rotate-image) | [C](algorithms/00048-rotate-image/main.c) | Medium |
-|49|[Group Anagrams, 字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) | [C](algorithms/00049-group-anagrams/main.c) | Medium |
+|44|[Wildcard Matching, 通配符匹配](https://leetcode-cn.com/problems/wildcard-matching/) | [C](algorithms/00044-wildcard-matching/main.c) | Hard | Dynamic Programming, 动态规划 |
+|45|[Jump Game II, 跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/) | [C](algorithms/00045-jump-game-ii/main.c) | Medium ||
+|46|[Permutations, 全排列](https://leetcode-cn.com/problems/permutations) | [C](algorithms/00046-permutations/main.c) | Medium | Backtracking, 回溯 |
+|47|[Permutations II, 全排列 II](https://leetcode-cn.com/problems/permutations-ii) | [C](algorithms/00047-permutations-ii/main.c) | Medium | Backtracking, 回溯 |
+|48|[Rotate Image, 旋转图像](https://leetcode-cn.com/problems/rotate-image) | [C](algorithms/00048-rotate-image/main.c) | Medium ||
+|49|[Group Anagrams, 字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) | [C](algorithms/00049-group-anagrams/main.c) | Medium | Hash Table, 哈希表 |
 |50|[Pow(x, n)](https://leetcode-cn.com/problems/powx-n) | [C](algorithms/00050-powx-n/main.c) | Medium |
-|51|[N-Queens, N 皇后](https://leetcode-cn.com/problems/n-queens) | [C](algorithms/00051-n-queens/main.c) | Hard |
-|52|[N-Queens II, N皇后 II](https://leetcode-cn.com/problems/n-queens-ii) | [C](algorithms/00052-n-queens-ii/main.c) | Hard |
-|53|[Maximum Subarray, 最大子数组和](https://leetcode-cn.com/problems/maximum-subarray/) | [C](algorithms/00053-maximum-subarray/main.c) | Easy |
-|54|[Spiral Matrix, 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix) | [C](algorithms/00054-spiral-matrix/main.c) | Medium |
+|51|[N-Queens, N 皇后](https://leetcode-cn.com/problems/n-queens) | [C](algorithms/00051-n-queens/main.c) | Hard | Backtracking, 回溯 |
+|52|[N-Queens II, N皇后 II](https://leetcode-cn.com/problems/n-queens-ii) | [C](algorithms/00052-n-queens-ii/main.c) | Hard | Backtracking, 回溯 |
+|53|[Maximum Subarray, 最大子数组和](https://leetcode-cn.com/problems/maximum-subarray/) | [C](algorithms/00053-maximum-subarray/main.c) | Easy | Dynamic Programming, 动态规划 |
+|54|[Spiral Matrix, 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix) | [C](algorithms/00054-spiral-matrix/main.c) | Medium ||
 |55|[Jump Game, 跳跃游戏](https://leetcode-cn.com/problems/jump-game/) | [C](algorithms/00055-jump-game/main.c) | Medium |
 |56|[Merge Intervals, 合并区间](https://leetcode-cn.com/problems/merge-intervals/) | [C](algorithms/00056-merge-intervals/main.c) | Medium |
 |57|[Insert Interval, 插入区间](https://leetcode-cn.com/problems/insert-interval/) | [C](algorithms/00057-insert-interval/main.c) | Medium |
@@ -183,6 +183,7 @@
 |273|[Integer to English Words, 整数转换英文表示](https://leetcode-cn.com/problems/integer-to-english-words/) | [C](algorithms/00273-integer-to-english-words/main.c) | Medium |
 |274|[H-Index, H 指数](https://leetcode-cn.com/problems/h-index/) | [C](algorithms/00274-h-index/main.c) | Medium |
 |279|[Perfect Squares, 完全平方数](https://leetcode-cn.com/problems/perfect-squares/) | [C](algorithms/00279-perfect-squares/main.c) | Medium |
+|295|[Find Median from Data Stream, 数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/) | [C](algorithms/00295-find-median-from-data-stream/main.c) | Hard |
 |300|[Longest Increasing Subsequence, 最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | [C](algorithms/00300-longest-increasing-subsequence/main.c) | Medium |
 |312|[Burst Balloons, 戳气球](https://leetcode-cn.com/problems/burst-balloons/) | [C](algorithms/00312-burst-balloons/main.c) | Hard |
 |313|[Super Ugly Number, 超级丑数](https://leetcode-cn.com/problems/super-ugly-number/) | [C](algorithms/00313-super-ugly-number/main.c) | Medium |
