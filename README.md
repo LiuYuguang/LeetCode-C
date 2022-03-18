@@ -23,11 +23,12 @@
 |22|[Generate Parentheses, 括号生成](https://leetcode-cn.com/problems/generate-parentheses) | [C](algorithms/00022-generate-parentheses/main.c) | Medium | Backtracking, 回溯 |
 |23|[Merge K Sorted Lists, 合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists) | [C](algorithms/00023-merge-k-sorted-lists/main.c) | Hard | Stack, 栈 |
 |24|[Swap Nodes in Pairs, 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs) | [C](algorithms/00024-swap-nodes-in-pairs/main.c) | Medium ||
-|25|[Reverse Nodes in k-Group, K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group) | [C](algorithms/00025-reverse-nodes-in-k-group/main.c) | Hard | Fast & Slow pointers, 快慢指针 
+|25|[Reverse Nodes in k-Group, K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group) | [C](algorithms/00025-reverse-nodes-in-k-group/main.c) | Hard | Fast & Slow pointers, 快慢指针 |
 |26|[Remove Duplicates from Sorted Array, 删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array) | [C](algorithms/00026-remove-duplicates-from-sorted-array/main.c) | Easy | Two Pointers, 双指针 |
 |27|[Remove Element, 移除元素](https://leetcode-cn.com/problems/remove-element) | [C](algorithms/00027-remove-element/main.c) | Easy | Two Pointers, 双指针 |
 |28|[Implement strStr(), 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr) | [C](algorithms/00028-implement-strstr/main.c) | Easy ||
 |29|[Divide Two Integers, 两数相除](https://leetcode-cn.com/problems/divide-two-integers/) | [C](algorithms/00029-divide-two-integers/main.c) | Medium ||
+|30|[Substring with Concatenation of All Words, 串联所有单词的子串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/) | [C](algorithms/00030-substring-with-concatenation-of-all-words/main.c) | Hard ||
 |31|[Next Permutation, 下一个排列](https://leetcode-cn.com/problems/next-permutation/) | [C](algorithms/00031-next-permutation/main.c) | Medium ||
 |32|[Longest Valid Parentheses, 最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/) | [C](algorithms/00032-longest-valid-parentheses/main.c) | Hard | Dynamic Programming, 动态规划 |
 |33|[Search in Rotated Sorted Array, 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [C](algorithms/00033-search-in-rotated-sorted-array/main.c) | Medium | Binary Search, 二分查找 |
@@ -62,6 +63,7 @@
 |62|[Unique Paths, 不同路径](https://leetcode-cn.com/problems/unique-paths/) | [C](algorithms/00062-unique-paths/main.c) | Medium |
 |63|[Unique Paths II, 不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii/) | [C](algorithms/00063-unique-paths-ii/main.c) | Medium |
 |64|[Minimum Path Sum, 最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) | [C](algorithms/00064-minimum-path-sum/main.c) | Medium |
+|65|[Valid Number, 有效数字](https://leetcode-cn.com/problems/valid-number/) | [C](algorithms/00065-valid-number/main.c) | Hard | Finite State Machine, 状态机 |
 |66|[Plus One, 加一](https://leetcode-cn.com/problems/plus-one/) | [C](algorithms/00066-plus-one/main.c) | Easy |
 |67|[Add Binary, 二进制求和](https://leetcode-cn.com/problems/add-binary/) | [C](algorithms/00067-add-binary/main.c) | Easy |
 |69|[Sqrt(x)](https://leetcode-cn.com/problems/sqrtx/) | [C](algorithms/00069-sqrtx/main.c) | Easy |
@@ -174,16 +176,16 @@
 |230|[Kth Smallest Element in a BST, 二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/) | [C](algorithms/00230-kth-smallest-element-in-a-bst/main.c) | Easy |
 |232|[Implement Queue using Stacks, 用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | [C](algorithms/00232-implement-queue-using-stacks/main.c) | Easy |
 |233|[Number of Digit One, 数字 1 的个数](https://leetcode-cn.com/problems/number-of-digit-one/) | [C](algorithms/00233-number-of-digit-one/main.c) | Hard |
-|234|[Palindrome Linked List, 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) | [C](algorithms/00234-palindrome-linked-list/main.c) | Easy |
+|234|[Palindrome Linked List, 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) | [C](algorithms/00234-palindrome-linked-list/main.c) | Easy | Fast & Slow pointers, 快慢指针 |
 |235|[Lowest Common Ancestor of a Binary Search Tree, 二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [C](algorithms/00235-lowest-common-ancestor-of-a-binary-search-tree/main.c) | Easy |
 |236|[Lowest Common Ancestor of a Binary Tree, 二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [C](algorithms/00236-lowest-common-ancestor-of-a-binary-tree/main.c) | Medium |
-|239|[Sliding Window Maximum, 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | [C](algorithms/00239-sliding-window-maximum/main.c) | Hard |
+|239|[Sliding Window Maximum, 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | [C](algorithms/00239-sliding-window-maximum/main.c) | Hard | Sliding Window, 滑动窗口 |
 |263|[Ugly Number, 丑数](https://leetcode-cn.com/problems/ugly-number/) | [C](algorithms/00263-ugly-number/main.c) | Easy |
 |264|[Ugly Number II, 丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/) | [C](algorithms/00264-ugly-number-ii/main.c) | Medium |
 |273|[Integer to English Words, 整数转换英文表示](https://leetcode-cn.com/problems/integer-to-english-words/) | [C](algorithms/00273-integer-to-english-words/main.c) | Medium |
 |274|[H-Index, H 指数](https://leetcode-cn.com/problems/h-index/) | [C](algorithms/00274-h-index/main.c) | Medium |
 |279|[Perfect Squares, 完全平方数](https://leetcode-cn.com/problems/perfect-squares/) | [C](algorithms/00279-perfect-squares/main.c) | Medium |
-|295|[Find Median from Data Stream, 数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/) | [C](algorithms/00295-find-median-from-data-stream/main.c) | Hard |
+|295|[Find Median from Data Stream, 数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/) | [C](algorithms/00295-find-median-from-data-stream/main.c) | Hard | Two Heaps, 双堆 |
 |300|[Longest Increasing Subsequence, 最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | [C](algorithms/00300-longest-increasing-subsequence/main.c) | Medium |
 |312|[Burst Balloons, 戳气球](https://leetcode-cn.com/problems/burst-balloons/) | [C](algorithms/00312-burst-balloons/main.c) | Hard |
 |313|[Super Ugly Number, 超级丑数](https://leetcode-cn.com/problems/super-ugly-number/) | [C](algorithms/00313-super-ugly-number/main.c) | Medium |
