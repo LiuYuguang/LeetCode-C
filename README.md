@@ -137,6 +137,7 @@
 |146|[LRU Cache, LRU 缓存](https://leetcode-cn.com/problems/lru-cache/) | [C](algorithms/00146-lru-cache/main.c) | Medium |
 |147|[Insertion Sort List, 对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/) | [C](algorithms/00147-insertion-sort-list/main.c) | Medium |
 |148|[Sort List, 排序链表](https://leetcode-cn.com/problems/sort-list/) | [C](algorithms/00148-sort-list/main.c) | Medium |
+|149|[Max Points on a Line, 直线上最多的点数](https://leetcode.cn/problems/max-points-on-a-line/) | [C](algorithms/00149-max-points-on-a-line/main.c) | Hard |
 |150|[Evaluate Reverse Polish Notation, 逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/) | [C](algorithms/00150-evaluate-reverse-polish-notation/main.c) | Medium |
 |151|[Reverse Words in a String, 翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/) | [C](algorithms/00151-reverse-words-in-a-string/main.c) | Medium |
 |152|[Maximum Product Subarray, 乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/) | [C](algorithms/00152-maximum-product-subarray/main.c) | Medium |
@@ -162,6 +163,7 @@
 |199|[Binary Tree Right Side View, 二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/) | [C](algorithms/00199-binary-tree-right-side-view/main.c) | Medium |
 |200|[Number of Islands, 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) | [C](algorithms/00200-number-of-islands/main.c) | Medium |
 |202|[Happy Number, 快乐数](https://leetcode-cn.com/problems/happy-number/) | [C](algorithms/00202-happy-number/main.c) | Easy |
+|204|[Count Primes, 计数质数](https://leetcode.cn/problems/count-primes/) | [C](algorithms/00204-count-primes/main.c) | Medium |
 |206|[Reverse Linked List, 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | [C](algorithms/00206-reverse-linked-list/main.c) | Easy |
 |207|[Course Schedule, 课程表](https://leetcode-cn.com/problems/course-schedule/) | [C](algorithms/00207-course-schedule/main.c) | Medium |
 |208|[Implement Trie (Prefix Tree), 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | [C](algorithms/00208-implement-trie-prefix-tree/main.c) | Medium |
@@ -179,6 +181,7 @@
 |234|[Palindrome Linked List, 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) | [C](algorithms/00234-palindrome-linked-list/main.c) | Easy | Fast & Slow pointers, 快慢指针 |
 |235|[Lowest Common Ancestor of a Binary Search Tree, 二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [C](algorithms/00235-lowest-common-ancestor-of-a-binary-search-tree/main.c) | Easy |
 |236|[Lowest Common Ancestor of a Binary Tree, 二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [C](algorithms/00236-lowest-common-ancestor-of-a-binary-tree/main.c) | Medium |
+|238|[Product of Array Except Self, 除自身以外数组的乘积](https://leetcode.cn/problems/product-of-array-except-self/) | [C](algorithms/00238-product-of-array-except-self/main.c) | Medium |
 |239|[Sliding Window Maximum, 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | [C](algorithms/00239-sliding-window-maximum/main.c) | Hard | Sliding Window, 滑动窗口 |
 |263|[Ugly Number, 丑数](https://leetcode-cn.com/problems/ugly-number/) | [C](algorithms/00263-ugly-number/main.c) | Easy |
 |264|[Ugly Number II, 丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/) | [C](algorithms/00264-ugly-number-ii/main.c) | Medium |
@@ -190,12 +193,15 @@
 |312|[Burst Balloons, 戳气球](https://leetcode-cn.com/problems/burst-balloons/) | [C](algorithms/00312-burst-balloons/main.c) | Hard |
 |313|[Super Ugly Number, 超级丑数](https://leetcode-cn.com/problems/super-ugly-number/) | [C](algorithms/00313-super-ugly-number/main.c) | Medium |
 |322|[Coin Change, 零钱兑换](https://leetcode-cn.com/problems/coin-change/) | [C](algorithms/00322-coin-change/main.c) | Medium |
+|326|[Power of Three, 3 的幂](https://leetcode.cn/problems/power-of-three/) | [C](algorithms/00326-power-of-three/main.c) | Easy |
 |328|[Odd Even Linked List, 奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/) | [C](algorithms/00328-odd-even-linked-list/main.c) | Medium |
 |329|[Longest Increasing Path in a Matrix, 矩阵中的最长递增路径](https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix/) | [C](algorithms/00329-longest-increasing-path-in-a-matrix/main.c) | Hard |
+|334|[Increasing Triplet Subsequence, 递增的三元子序列](https://leetcode.cn/problems/increasing-triplet-subsequence/) | [C](algorithms/00334-increasing-triplet-subsequence/main.c) | Medium |
 |338|[Counting Bits, 比特位计数](https://leetcode-cn.com/problems/counting-bits/) | [C](algorithms/00338-counting-bits/main.c) | Easy |
 |343|[Integer Break, 整数拆分](https://leetcode-cn.com/problems/integer-break/) | [C](algorithms/00343-integer-break/main.c) | Medium |
 |347|[Top K Frequent Elements, 前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) | [C](algorithms/00347-top-k-frequent-elements/main.c) | Medium |
 |354|[Russian Doll Envelopes, 俄罗斯套娃信封问题](https://leetcode-cn.com/problems/russian-doll-envelopes/) | [C](algorithms/00354-russian-doll-envelopes/main.c) | Hard |
+|384|[Shuffle an Array, 打乱数组](https://leetcode.cn/problems/shuffle-an-array/) | [C](algorithms/00384-shuffle-an-array/main.c) | Medium |
 |392|[Is Subsequence, 判断子序列](https://leetcode-cn.com/problems/is-subsequence/) | [C](algorithms/00392-is-subsequence/main.c) | Easy |
 |416|[Partition Equal Subset Sum, 分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum/) | [C](algorithms/00416-partition-equal-subset-sum/main.c) | Medium |
 |438|[Find All Anagrams in a String, 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) | [C](algorithms/00438-find-all-anagrams-in-a-string/main.c) | Medium |

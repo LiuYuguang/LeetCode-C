@@ -2,40 +2,44 @@
 #include <stdlib.h>
 #include <string.h>
 
-int* build(char * needle,int needleSize){
-    if(needleSize == 0)
-        return NULL;
-    int *index = malloc(sizeof(int) * needleSize);
-    index[0] = -1;
-    int i,j;
-    for(i=0,j=-1;i<needleSize-1;){
-        if(j == -1 || needle[j] == needle[i]){
-            index[++i] = ++j;
-        }else /*if(needle[j] != needle[i])*/{
-            j = index[j];
-        }
-    }
-    return index;
+int * buildNext(char *s){
+	int l = strlen(s);
+	int *next = malloc(sizeof(int) * l);
+	next[0] = -1;
+	int i,j;
+	for(i=-1,j=0;j<l-1;){
+		if(i == -1 || s[i] == s[j]){
+			next[++j] = ++i;
+		}else{
+			i = next[i];
+		}
+	}
+	return next;
 }
 
 int strStr(char * haystack, char * needle){
-    int haystackSize = strlen(haystack);
-    int needleSize = strlen(needle);
-    int *index = build(needle,needleSize);
-    int i,j;
-    for(i=0,j=0;i<haystackSize&&j<needleSize;){
-        if(j==-1 || haystack[i] == needle[j]){
-            i++;
-            j++;
-        }else /*if(haystack[i] != needle[j])*/{
-            j = index[j];
-        }
-    }
-    if(j == needleSize){
-        return i-j;
-    }else{
-        return -1;
-    }
+	if(needle[0] == '\0'){
+		return 0;
+	}
+	if(haystack[0] == '\0'){
+		return -1;
+	}
+
+	int lh = strlen(haystack),ln = strlen(needle);
+	int *next = buildNext(needle);
+
+	int i,j;
+	for(i=0,j=0;j<lh && i<ln;){
+		if(i == -1 || needle[i] == haystack[j]){
+			i++;
+			j++;
+		}else{
+			i = next[i];
+		}
+	}
+	free(next);
+
+	return ((i == ln) ? (j-i) : (-1));
 }
 
 int main(int argc, char **argv){
