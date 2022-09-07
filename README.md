@@ -119,6 +119,7 @@
 |122|[Best Time to Buy and Sell Stock II, 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [C](algorithms/00122-best-time-to-buy-and-sell-stock-ii/main.c) | Medium |
 |124|[Binary Tree Maximum Path Sum, 二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/) | [C](algorithms/00124-binary-tree-maximum-path-sum/main.c) | Hard |
 |125|[Valid Palindrome, 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) | [C](algorithms/00125-valid-palindrome/main.c) | Easy |
+|127|[Word Ladder, 单词接龙](https://leetcode.cn/problems/word-ladder/) | [C](algorithms/00127-word-ladder/main.c) | Hard |
 |128|[Longest Consecutive Sequence, 最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/) | [C](algorithms/00128-longest-consecutive-sequence/main.c) | Medium |
 |129|[Sum Root to Leaf Numbers, 求根节点到叶节点数字之和](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/) | [C](algorithms/00129-sum-root-to-leaf-numbers/main.c) | Medium |
 |130|[Surrounded Regions, 被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/) | [C](algorithms/00130-surrounded-regions/main.c) | Medium |
@@ -201,8 +202,11 @@
 |343|[Integer Break, 整数拆分](https://leetcode-cn.com/problems/integer-break/) | [C](algorithms/00343-integer-break/main.c) | Medium |
 |347|[Top K Frequent Elements, 前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) | [C](algorithms/00347-top-k-frequent-elements/main.c) | Medium |
 |354|[Russian Doll Envelopes, 俄罗斯套娃信封问题](https://leetcode-cn.com/problems/russian-doll-envelopes/) | [C](algorithms/00354-russian-doll-envelopes/main.c) | Hard |
+|380|[Insert Delete GetRandom O(1), O(1) 时间插入、删除和获取随机元素](https://leetcode.cn/problems/insert-delete-getrandom-o1/) | [C](algorithms/00380-insert-delete-getrandom-o1/main.c) | Medium |
+|381|[Insert Delete GetRandom O(1) - Duplicates allowed, O(1) 时间插入、删除和获取随机元素 - 允许重复](https://leetcode.cn/problems/insert-delete-getrandom-o1-duplicates-allowed/) | [C](algorithms/00381-insert-delete-getrandom-o1-duplicates-allowed/main.c) | Hard |
 |384|[Shuffle an Array, 打乱数组](https://leetcode.cn/problems/shuffle-an-array/) | [C](algorithms/00384-shuffle-an-array/main.c) | Medium |
 |392|[Is Subsequence, 判断子序列](https://leetcode-cn.com/problems/is-subsequence/) | [C](algorithms/00392-is-subsequence/main.c) | Easy |
+|395|[Longest Substring with At Least K Repeating Characters, 至少有 K 个重复字符的最长子串](https://leetcode.cn/problems/longest-substring-with-at-least-k-repeating-characters/) | [C](algorithms/00395-longest-substring-with-at-least-k-repeating-characters/main.c) | Medium |
 |416|[Partition Equal Subset Sum, 分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum/) | [C](algorithms/00416-partition-equal-subset-sum/main.c) | Medium |
 |438|[Find All Anagrams in a String, 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) | [C](algorithms/00438-find-all-anagrams-in-a-string/main.c) | Medium |
 |460|[LFU Cache, LFU 缓存](https://leetcode-cn.com/problems/lfu-cache/) | [C](algorithms/00460-lfu-cache/main.c) | Hard |
@@ -237,3 +241,4 @@
 |1046|[Last Stone Weight, 最后一块石头的重量](https://leetcode-cn.com/problems/last-stone-weight/) | [C](algorithms/01046-last-stone-weight/main.c) | Easy |
 |1089|[Duplicate Zeros, 复写零](https://leetcode-cn.com/problems/duplicate-zeros/) | [C](algorithms/01089-duplicate-zeros/main.c) | Easy |
 |1290|[Convert Binary Number in a Linked List to Integer, 二进制链表转整数](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | [C](algorithms/01290-convert-binary-number-in-a-linked-list-to-integer/main.c) | Easy |
+|2166|[Design Bitset, 设计位集](https://leetcode.cn/problems/design-bitset/) | [C](algorithms/02166-design-bitset/main.c) | Medium |

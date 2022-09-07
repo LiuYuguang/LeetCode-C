@@ -4,64 +4,45 @@
 #include <limits.h>
 
 char * fractionToDecimal(int numerator, int denominator){
-    if(numerator == 0){
-        char *returnString = malloc(sizeof(2));
-        returnString[0] = '0';
-        returnString[1] = '\0';
-        return returnString;
+    long numerator_long=numerator,denominator_long=denominator;
+    char *s = malloc(10000),*index = s;
+    if(numerator_long < 0 && denominator_long > 0 || numerator_long > 0 && denominator_long < 0){
+        *index++ = '-';
     }
-
-    long numerator2 = numerator,denominator2 = denominator;
-    long quotient,quotients[10000];
-    long remainder,remainders[10000];
-    int quotientsSize=0,remaindersSize=0;
-    int i,cycle=0;
-    int flag = numerator<0 && denominator>0 || numerator>0 && denominator<0;
-
-    if(numerator2 < 0){
-        numerator2 = -numerator2;
+    if(numerator_long < 0){
+        numerator_long = -numerator_long;
     }
-    if(denominator2 < 0){
-        denominator2 = -denominator2;
+    if(denominator_long < 0){
+        denominator_long = -denominator_long;
     }
-    do{
-        quotient = numerator2/denominator2;
-        remainder = numerator2%denominator2;
-        quotients[quotientsSize++] = quotient;
+    index += sprintf(index,"%ld",numerator_long/denominator_long);
+    numerator_long = numerator_long % denominator_long;
+    if(numerator_long == 0){
+        return s;
+    }
+    *index++ = '.';
 
-        numerator2 = remainder*10;
-        for(i=remaindersSize-1;i>=0 && remainders[i] != remainder;i--){}
-        if(i >= 0){
-            cycle = remaindersSize - i;
+    long remainders[10000];
+    int i,size = 0;
+
+    while(numerator_long != 0){
+        for(i=0;i<size && remainders[i] != numerator_long;i++){}
+        if(i<size){
+            // 出现循环
+            memmove(index - (size-i) + 1, index - (size-i), (size-i));
+            *(index - (size-i)) = '(';
+            index++;
+            *index++ = ')';
             break;
         }
-        remainders[remaindersSize++] = remainder;
-    }while(numerator2 != 0);
+        remainders[size++] = numerator_long;
 
-    char *returnString = malloc(10000),*p = returnString;
-
-    if(flag){
-        *p++ = '-';
+        numerator_long*=10;
+        index += sprintf(index,"%ld",numerator_long/denominator_long);// 只会有一位
+        numerator_long = numerator_long % denominator_long;
     }
-    p += sprintf(p,"%ld",quotients[0]);
-    if(quotientsSize == 1){
-        return returnString;
-    }
-
-    *p++ = '.';
-
-    for(i=1;i<quotientsSize-cycle;i++){
-        p += sprintf(p,"%ld",quotients[i]);
-    }
-    if(cycle > 0){
-        *p++ = '(';
-        for(i=quotientsSize-cycle;i<quotientsSize;i++){
-            p += sprintf(p,"%ld",quotients[i]);
-        }
-        *p++ = ')';
-        *p = '\0';
-    }
-    return returnString;
+    *index++ = '\0';
+    return s;
 }
 
 int main(){
